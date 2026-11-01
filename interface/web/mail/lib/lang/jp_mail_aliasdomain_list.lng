@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'ドメインエイリアス';
+$wb['active_txt'] = '有効';
+$wb['source_txt'] = '転送元';
+$wb['destination_txt'] = '転送先';
+$wb['add_new_record_txt'] = '新しいドメインエイリアスを追加';

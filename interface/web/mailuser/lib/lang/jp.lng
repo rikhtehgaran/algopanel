@@ -1,0 +1,8 @@
+<?php
+$wb['Email Account'] = 'メールアカウント';
+$wb['Overview'] = '概要';
+$wb['Password'] = 'パスワード';
+$wb['Autoresponder'] = '自動応答';
+$wb['Send copy'] = 'コピー送信';
+$wb['Spamfilter'] = 'スパムフィルタ';
+$wb['Email Filters'] = 'メールフィルタ';

@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'データ更新履歴';
+$wb['tstamp_txt'] = '日付';
+$wb['server_id_txt'] = 'サーバー';
+$wb['dbtable_txt'] = 'DBテーブル';
+$wb['action_txt'] = 'アクション';
+$wb['status_txt'] = 'ステータス';
+$wb['user_txt'] = 'ユーザー';

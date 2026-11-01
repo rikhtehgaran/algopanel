@@ -1,0 +1,2 @@
+[Service]
+ReadWritePaths={ispconfig_temp_dir}

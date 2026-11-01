@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'スパムフィルタ';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['server_name_txt'] = 'サーバー名';
+$wb['email_txt'] = 'メールアドレス';
+$wb['add_new_record_txt'] = '新規作成';

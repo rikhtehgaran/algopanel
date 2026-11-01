@@ -1,0 +1,7 @@
+<?php
+$wb['metrics_txt'] = 'システム統計';
+$wb['loadchart_label'] = '負荷率 %';
+$wb['memchart_label'] = 'メモリ使用率 %';
+$wb['rxchart_label'] = '受信 / kB';
+$wb['txchart_label'] = '送信 / kB';
+$wb['label_chart_title'] = 'システム統計';

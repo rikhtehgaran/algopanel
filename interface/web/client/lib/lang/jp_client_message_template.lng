@@ -1,0 +1,12 @@
+<?php
+$wb['template_type_txt'] = 'メール種別';
+$wb['template_name_txt'] = 'テンプレート名';
+$wb['subject_txt'] = '件名';
+$wb['message_txt'] = '本文';
+$wb['Email template'] = 'メールテンプレート';
+$wb['Settings'] = '設定';
+$wb['variables_txt'] = '利用可能な変数';
+$wb['variables_description_txt'] = '(ユーザー名とパスワードの変数は、ウェルカムメールのみで使用可能です)';
+$wb['duplicate_welcome_error'] = 'There can be only one default welcome email template. / デフォルトのウェルカムメールは1つしか作成できません。既存のテンプレートを編集してください。';
+$wb['subject_error_empty'] = 'Subject is empty / 件名を入力してください。';
+$wb['message_error_empty'] = 'Message is empty / 本文を入力してください。';

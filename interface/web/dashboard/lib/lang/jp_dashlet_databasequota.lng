@@ -1,0 +1,6 @@
+<?php
+$wb['databasequota_txt'] = 'データベース容量';
+$wb['database_txt'] = 'データベース名';
+$wb['used_txt'] = '使用量';
+$wb['quota_txt'] = '容量制限';
+$wb['no_database_accounts_txt'] = 'データベースが見つかりません。';

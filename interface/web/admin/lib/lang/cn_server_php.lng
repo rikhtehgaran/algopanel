@@ -1,0 +1,32 @@
+<?php
+$wb['server_id_txt'] = '服务器';
+$wb['client_id_txt'] = '客户';
+$wb['name_txt'] = 'PHP名称';
+$wb['Name'] = '名称';
+$wb['FastCGI Settings'] = 'FastCGI设置';
+$wb['PHP-FPM Settings'] = 'PHP-FPM设置';
+$wb['Additional PHP Versions'] = '附加PHP版本';
+$wb['Form to edit additional PHP versions'] = '编辑附加PHP版本的表单';
+$wb['server_php_name_error_empty'] = '名称字段不能为空。';
+$wb['php_fastcgi_binary_txt'] = 'PHP FastCGI二进制文件路径';
+$wb['php_fastcgi_ini_dir_txt'] = 'php.ini目录路径';
+$wb['php_fpm_init_script_txt'] = 'PHP-FPM Systemd service';
+$wb['php_fpm_ini_dir_txt'] = 'php.ini目录路径';
+$wb['php_fpm_pool_dir_txt'] = 'PHP-FPM池目录路径';
+$wb['php_fpm_socket_dir_txt'] = 'PHP-FPM套接字目录';
+$wb['active_txt'] = '激活';
+$wb['php_in_use_error'] = '此PHP版本正在使用中。';
+$wb['php_name_in_use_error'] = '名称无法更改。';
+$wb['PHP Sort Priority'] = 'Priority';
+$wb['sortprio_txt'] = 'Priority';
+$wb['sortprio_long_txt'] = 'Priority of PHP version in the PHP version select box<br>Default PHP has prio 0 if enabled<br>Lower value is higher priority';
+$wb['PHP-CLI settings'] = 'PHP-CLI settings';
+$wb['php_cli_binary_txt'] = 'Path to the PHP CLI binary';
+$wb['tooltip_php_cli_binary_txt'] = 'Path to the PHP CLI binary including the filename';
+$wb['php_jk_section_txt'] = 'PHP Jailkit section';
+$wb['tooltip_php_jk_section_txt'] = 'Identifier of the PHP version in your jk_init.ini (without square brackets).';
+$wb['php_cli_jk_section_error_regex'] = 'Invalid Jaikit chroot section';
+$wb['php_cli_binary_error_regex'] = 'Invalid path to PHP cli binary';
+$wb['php_cli_binary_empty'] = 'PHP CLI binary field must not be empty';
+$wb['php_cli_jk_section_empty'] = 'PHP Jailkit section field must not be empty';
+?>

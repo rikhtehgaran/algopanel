@@ -1,0 +1,23 @@
+<?php
+$wb['head_txt'] = '他の管理パネルからメール設定をインポート';
+$wb['legend_txt'] = '接続先サーバーの詳細設定';
+$wb['legend2_txt'] = 'インポートするメールドメイン';
+$wb['resync_sites_txt'] = 'ウェブサイトを再同期';
+$wb['resync_ftp_txt'] = 'FTPユーザーを再同期';
+$wb['resync_shell_txt'] = 'シェルユーザーを再同期';
+$wb['resync_cron_txt'] = '定期実行(Cron)ジョブを再同期';
+$wb['resync_db_txt'] = 'クライアントDB設定を再同期';
+$wb['resync_mailbox_txt'] = 'メールボックスを再同期';
+$wb['resync_dns_txt'] = 'DNSレコードを再同期';
+$wb['btn_start_txt'] = 'インポート開始';
+$wb['btn_connect_txt'] = 'リモートサーバーに接続';
+$wb['btn_cancel_txt'] = 'キャンセル';
+$wb['client_group_id_txt'] = 'インポート先のクライアント';
+$wb['mail_domain_txt'] = 'インポート元のメールドメイン';
+$wb['import_mailbox_txt'] = 'メールボックスをインポート';
+$wb['import_aliasdomain_txt'] = 'エイリアスドメインをインポート';
+$wb['import_alias_txt'] = 'メールエイリアスをインポート';
+$wb['import_forward_txt'] = '転送設定をインポート';
+$wb['import_user_filter_txt'] = 'ユーザーフィルターをインポート';
+$wb['import_spamfilter_txt'] = 'スパムフィルターをインポート';
+$wb['local_server_txt'] = 'インポート先のメールサーバー';

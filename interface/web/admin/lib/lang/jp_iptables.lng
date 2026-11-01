@@ -1,0 +1,12 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['multiport_txt'] = 'マルチポート';
+$wb['singleport_txt'] = 'シングルポート';
+$wb['protocol_txt'] = 'プロトコル';
+$wb['table_txt'] = 'テーブル';
+$wb['target_txt'] = 'ターゲット';
+$wb['state_txt'] = '状態';
+$wb['destination_ip_txt'] = '宛先アドレス';
+$wb['source_ip_txt'] = '送信元アドレス';
+$wb['active_txt'] = '有効';
+$wb['iptables_error_unique'] = 'There is already a firewall record for this server. / このサーバーには既にファイアウォールレコードが存在します。';

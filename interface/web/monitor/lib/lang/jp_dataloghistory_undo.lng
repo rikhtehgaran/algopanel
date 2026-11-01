@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'データ更新履歴の復元';
+$wb['success_txt'] = 'Undo successful / 復元に成功しました';
+$wb['error_txt'] = 'Error during undo: Record does not exist anymore / 復元エラー：対象のレコードが既に存在しません';
+$wb['error_undelete_txt'] = 'Error during undelete: Record with primary id already existing. / 削除取り消しエラー：同じIDのレコードが既に存在しています';
+$wb['btn_cancel_txt'] = '戻る';

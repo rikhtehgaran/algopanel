@@ -1,0 +1,2 @@
+pickup     fifo  n       -       y       60      1       pickup
+    -o content_filter=lmtp:[127.0.0.1]:10026

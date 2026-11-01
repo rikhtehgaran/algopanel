@@ -1,0 +1,8 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_txt'] = 'リレー受信者';
+$wb['recipient_txt'] = '宛先';
+$wb['active_txt'] = '有効';
+$wb['source_error_notempty'] = 'Address is empty. / アドレスを入力してください。';
+$wb['type_txt'] = '種別';
+$wb['limit_mailfilter_txt'] = 'The max. number of email filters for your account is reached. / メールフィルターの最大数に達しました。';

@@ -1,0 +1,13 @@
+# This file is managed by ISPConfig.
+#
+# Inbound DMARC policy enforcement for received mail. The behaviour is controlled
+# by the "Inbound DMARC enforcement" setting in the ISPConfig panel under
+# System > Server Config > Mail.
+#
+# ISPConfig (re)writes this file when that setting is changed, but it does not
+# overwrite or remove it during an update once it exists. If you want custom DMARC
+# settings that are never touched by ISPConfig, use /etc/rspamd/override.d/dmarc.conf
+# instead.
+
+enabled = true;
+<tmpl_var name='dmarc_actions'>

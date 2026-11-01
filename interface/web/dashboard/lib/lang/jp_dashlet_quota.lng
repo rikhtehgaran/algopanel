@@ -1,0 +1,7 @@
+<?php
+$wb['quota_txt'] = 'Webサイト容量制限';
+$wb['domain_txt'] = 'ドメイン / サイト';
+$wb['used_txt'] = '使用量';
+$wb['hard_txt'] = '最大制限(Hard)';
+$wb['soft_txt'] = '警告制限(Soft)';
+$wb['no_sites_txt'] = 'サイトが見つかりません。';

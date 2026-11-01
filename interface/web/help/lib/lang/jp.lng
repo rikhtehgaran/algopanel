@@ -1,0 +1,13 @@
+<?php
+$wb['Support Message'] = 'サポートメッセージ';
+$wb['Message'] = 'メッセージ';
+$wb['Send message'] = 'メッセージを送信';
+$wb['View messages'] = 'メッセージを表示';
+$wb['Support'] = 'サポート';
+$wb['About ISPConfig'] = '管理パネルについて';
+$wb['Version'] = 'バージョン';
+$wb['Frequently Asked Questions'] = 'よくある質問 (FAQ)';
+$wb['FAQ Sections'] = 'FAQセクション';
+$wb['Manage Sections'] = 'セクション管理';
+$wb['Add a Question & Answer Pair'] = 'Q&Aペアを追加';
+$wb['Manage Questions'] = '質問管理';

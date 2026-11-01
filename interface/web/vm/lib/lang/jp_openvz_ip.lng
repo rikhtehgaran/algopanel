@@ -1,0 +1,8 @@
+<?php
+$wb['server_id_txt'] = 'ホストサーバー';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['vm_id_txt'] = '仮想サーバー';
+$wb['reserved_txt'] = '予約済み';
+$wb['ip_error_wrong'] = 'Please fill in a valid IPv4 address. / 有効なIPv4アドレスを入力してください。';
+$wb['ip_error_unique'] = 'This IP address does already exist. / このIPアドレスは既に登録されています。';
+$wb['IP address'] = 'IPアドレス';

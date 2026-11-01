@@ -1,0 +1,14 @@
+<?php
+$wb['name_txt'] = 'Name';
+$wb['version_txt'] = 'Version';
+$wb['date_txt'] = 'Datum';
+$wb['title_txt'] = 'Titel';
+$wb['delete_confirmation'] = 'Sind Sie sicher, dass Sie diese Extension löschen möchten?';
+$wb['update_extension_txt'] = 'Update';
+$wb['install_extension_txt'] = 'Installieren';
+$wb['server_id_txt'] = 'Server ID';
+$wb['no_records_txt'] = 'Keine Erweiterungen gefunden';
+$wb['postinstall_info_txt'] = 'Info';
+$wb['free_limits_txt'] = 'Einschränkungen für kostenlose Nutzung';
+$wb['pending_installs_txt'] = 'Es gibt ausstehende Erweiterungen. Sie werden bald in der Liste erscheinen.';
+?>

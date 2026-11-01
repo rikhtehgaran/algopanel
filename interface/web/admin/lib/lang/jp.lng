@@ -1,0 +1,67 @@
+<?php
+//Errors
+$wb[1001] = 'Username or password is empty. / ユーザー名またはパスワードが空です。';
+$wb[1002] = 'Username or password is wrong. / ユーザー名またはパスワードが間違っています。';
+
+$wb['Groups'] = 'グループ';
+$wb['groups_description'] = 'Form to edit systemuser groups. / システムユーザーグループ編集フォーム';
+
+$wb['Servers'] = 'サーバー';
+$wb['Config'] = '設定';
+
+$wb['Add user'] = 'ユーザーを追加';
+$wb['Edit user'] = 'ユーザーを編集';
+$wb['Add group'] = 'グループを追加';
+$wb['Edit group'] = 'グループを編集';
+$wb['Edit server'] = 'サーバーを編集';
+
+$wb['Sync. Now'] = '今すぐ同期';
+$wb['DB Sync.'] = 'DB同期';
+
+// subnav
+$wb['User Management'] = 'ユーザー管理';
+$wb['CP Users'] = 'パネルユーザー';
+$wb['Remote Users'] = 'リモートユーザー';
+
+$wb['System'] = 'システム';
+$wb['Server Services'] = 'サーバーサービス';
+    $wb['Services'] = 'サービス';
+$wb['Server Config'] = 'サーバー設定';
+    $wb['Server'] = 'サーバー';
+    $wb['Mail'] = 'メール';
+    $wb['Getmail'] = 'Getmail';
+    $wb['Web'] = 'ウェブ';
+    $wb['FastCGI'] = 'FastCGI';
+    $wb['Jailkit'] = 'Jailkit';
+    $wb['Rescue'] = 'レスキュー';
+$wb['Server IP addresses'] = 'サーバーIPアドレス';
+$wb['Additional PHP Versions'] = '追加のPHPバージョン';
+$wb['Directive Snippets'] = 'ディレクティブ・スニペット';
+$wb['Firewall'] = 'ファイアウォール';
+
+$wb['Interface'] = 'インターフェース';
+$wb['Interface Config'] = 'メイン設定';
+    $wb['Sites'] = 'サイト';
+    $wb['DNS'] = 'DNS';
+    $wb['Domains'] = 'ドメイン';
+    $wb['Misc'] = 'その他';
+
+$wb['Software'] = 'アプリ & アドオン';
+$wb['Repositories'] = 'リポジトリ';
+$wb['Packages'] = 'パッケージ';
+$wb['Updates'] = 'アップデート';
+
+$wb['Language Editor'] = '言語エディタ';
+$wb['Languages'] = '言語管理';
+$wb['New Language'] = '新しい言語';
+$wb['Merge'] = 'マージ';
+$wb['Export'] = 'エクスポート';
+$wb['Import'] = 'インポート';
+
+$wb['Remote Actions'] = 'リモートアクション';
+$wb['Do OS-Update'] = 'OSアップデートの実行';
+$wb['Do ISPConfig-Update'] = 'ISPConfigアップデートの実行';
+
+$wb['Extension Installer'] = '拡張インストーラー';
+$wb['Available Extensions'] = '利用可能な拡張機能';
+$wb['Installed Extensions'] = 'インストール済み拡張機能';

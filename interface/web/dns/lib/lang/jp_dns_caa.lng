@@ -1,0 +1,19 @@
+<?php
+$wb['ca_list_txt'] = '認証局 (CA)';
+$wb['ca_domain_txt'] = 'ドメイン';
+$wb['ca_hostname_txt'] = '追加のホスト名';
+$wb['ca_hostname_note_txt'] = '(カンマ区切りで入力 - 空欄ですべてのホスト名に適用)';
+$wb['ca_options_txt'] = '追加オプション';
+$wb['ca_options_note_txt'] = 'CAにより要求されるパラメータ (カンマ区切り)';
+$wb['ca_wildcard_txt'] = 'ワイルドカードSSLを使用';
+$wb['ca_critical_txt'] = '厳格なチェック (Strict check)';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['select_txt'] = '認証局を選択';
+$wb['no_zone_perm'] = 'You do not have the permission to add a record to this DNS zone. / このDNSゾーンにレコードを追加する権限がありません。';
+$wb['limit_dns_record_txt'] = 'The max. number of DNS records for your account is reached. / DNSレコードの作成上限に達しました。';
+$wb['ca_error_txt'] = '認証局が選択されていません。';
+$wb['caa_exists_error'] = 'CAAレコードが既に存在します。';
+$wb['ca_option_error'] = 'Invalid format for additional options; OPTION=VALUE / 追加オプションの形式が不正です（例：OPTION=VALUE）。';
+$wb['cname_conflict_txt'] = 'A CNAME record already exists for this hostname. / このホスト名にはCNAMEレコードが既に存在します（共存不可）。';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds. / TTLの最小値は60秒です。';

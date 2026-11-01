@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'ユーザー';
+$wb['username_txt'] = 'ユーザー名';
+$wb['client_id_txt'] = 'ユーザーID';
+$wb['active_txt'] = '有効';
+$wb['groups_txt'] = 'グループ';
+$wb['add_new_record_txt'] = 'ユーザーを新規作成';
+$wb['warning_txt'] = '<b>WARNING:</b> Do not edit or modify any client user settings here. Use the client- and reseller settings in the client module instead. / <b>警告:</b> ここでクライアントユーザーの設定を編集しないでください。代わりに「クライアント」モジュールの設定を使用してください。ここで変更を行うとデータ損失の原因となる可能性があります。';

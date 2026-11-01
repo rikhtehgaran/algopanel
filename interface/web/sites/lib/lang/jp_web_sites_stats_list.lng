@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Webトラフィック統計';
+$wb['domain_txt'] = 'ドメイン';
+$wb['this_month_txt'] = '今月';
+$wb['last_month_txt'] = '先月';
+$wb['this_year_txt'] = '今年';
+$wb['last_year_txt'] = '昨年';
+$wb['sum_txt'] = '合計';
+$wb['percentage_txt'] = '使用率 (%)';
+$wb['quota_txt'] = '割り当て容量';

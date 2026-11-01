@@ -1,0 +1,19 @@
+<?php
+$wb['page_head_txt'] = 'クライアントとリセラーへメッセージ送信';
+$wb['btn_send_txt'] = 'メールを送信';
+$wb['btn_cancel_txt'] = 'キャンセル';
+$wb['sender_txt'] = '送信元メールアドレス';
+$wb['subject_txt'] = '件名';
+$wb['message_txt'] = '本文';
+$wb['form_legend_client_txt'] = 'クライアントへメッセージを送信します。';
+$wb['form_legend_admin_txt'] = 'クライアントとリセラーへメッセージを送信します。';
+$wb['sender_invalid_error'] = 'Sender email invalid. / 送信元メールアドレスが不正です。';
+$wb['subject_invalid_error'] = 'Subject is empty. / 件名を入力してください。';
+$wb['message_invalid_error'] = 'Message is empty. / 本文を入力してください。';
+$wb['email_sent_to_txt'] = 'メール送信先:';
+$wb['recipient_txt'] = '宛先';
+$wb['all_clients_resellers_txt'] = 'すべてのクライアントとリセラー';
+$wb['all_clients_txt'] = 'すべてのクライアント';
+$wb['variables_txt'] = '利用可能な変数:';
+$wb['gender_m_txt'] = '様';
+$wb['gender_f_txt'] = '様';

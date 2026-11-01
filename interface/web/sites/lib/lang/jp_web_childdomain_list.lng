@@ -1,0 +1,17 @@
+<?php
+$wb['list_head_txt'] = 'サブドメイン';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['parent_domain_id_txt'] = 'ウェブサイト';
+$wb['domain_txt'] = 'サブドメイン';
+$wb['add_new_subdomain_txt'] = 'サブドメインを追加';
+$wb['add_new_aliasdomain_txt'] = 'エイリアスドメインを追加';
+$wb['domain_error_empty'] = 'Domain is empty. / ドメイン名を入力してください。';
+$wb['domain_error_unique'] = 'Domain must be unique. / このドメイン名は既に登録されています。';
+$wb['domain_error_regex'] = 'Domain name invalid. / ドメイン名が不正です。';
+$wb['domain_error_acme_invalid'] = 'Domain name acme.invalid not permitted. / acme.invalid は使用できません。';
+$wb['no_redirect_txt'] = 'リダイレクトなし';
+$wb['no_flag_txt'] = 'なし';
+$wb['none_txt'] = 'なし';
+$wb['aliasdomain_list_head_txt'] = 'エイリアスドメイン';
+$wb['subdomain_list_head_txt'] = 'サブドメイン';

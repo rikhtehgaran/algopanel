@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'スパムフィルタユーザー';
+$wb['local_txt'] = 'ローカル';
+$wb['server_id_txt'] = 'サーバー';
+$wb['priority_txt'] = '優先度';
+$wb['policy_id_txt'] = 'ポリシー';
+$wb['fullname_txt'] = '名前';
+$wb['email_txt'] = 'メールアドレス';
+$wb['add_new_record_txt'] = 'ユーザーを追加';

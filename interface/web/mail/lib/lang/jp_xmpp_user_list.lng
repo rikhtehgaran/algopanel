@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'XMPPユーザーアカウント';
+$wb['jid_txt'] = 'Jabber ID (JID)';
+$wb['is_domain_admin_txt'] = 'ドメイン管理者';
+$wb['is_muc_admin_txt'] = 'MUC管理者';
+$wb['add_new_record_txt'] = 'ユーザーを追加';
+$wb['active_txt'] = '有効';

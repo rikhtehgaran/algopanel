@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'キャッチオール設定';
+$wb['active_txt'] = '有効';
+$wb['source_txt'] = 'ソース';
+$wb['destination_txt'] = '配送先メールアドレス';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['add_new_record_txt'] = 'キャッチオールを追加';

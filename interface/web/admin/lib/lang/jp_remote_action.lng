@@ -1,0 +1,11 @@
+<?php
+$wb['select_server_txt'] = 'サーバーを選択';
+$wb['btn_do_txt'] = 'アクションを実行';
+$wb['do_osupdate_caption'] = 'リモートサーバーのOSアップデートを実行';
+$wb['do_osupdate_desc'] = '選択されたサーバーで "apt -y upgrade" を実行します。<br><br><strong>USE THIS AT YOUR OWN RISK! / 自己責任において実行してください。</strong>';
+$wb['do_ispcupdate_caption'] = 'リモートサーバーの ISPConfig 3 アップデートを実行';
+$wb['do_ispcupdate_desc'] = '選択されたサーバーで ISPConfig 3 のアップデートを実行します。<br><br><strong>USE THIS AT YOUR OWN RISK! / 自己責任において実行してください。</strong>';
+$wb['action_scheduled'] = 'アクションは実行待ちリストに追加されました';
+$wb['select_all_server'] = 'すべてのサーバー';
+$wb['ispconfig_update_title'] = 'ISPConfig アップデート手順';
+$wb['ispconfig_update_text'] = 'サーバーのシェルに root ユーザーとしてログインし、次のコマンドを実行してください：<br /><br /> <strong>ispconfig_update.sh</strong><br /><br />これにより ISPConfig のアップデートが開始されます。<br /><br /><a href="https://www.faqforge.com/linux/controlpanels/ispconfig3/how-to-update-ispconfig-3/" target="_blank">詳細なアップデート手順はこちら（英語）</a>';

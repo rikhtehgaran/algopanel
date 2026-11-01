@@ -1,0 +1,13 @@
+<?php
+$wb['web_folder_id_txt'] = 'フォルダ';
+$wb['username_txt'] = 'ユーザー名';
+$wb['password_txt'] = 'パスワード';
+$wb['active_txt'] = '有効';
+$wb['folder_error_empty'] = 'No web folder selected. / フォルダが選択されていません。';
+$wb['password_strength_txt'] = 'パスワード強度';
+$wb['generate_password_txt'] = 'パスワード生成';
+$wb['repeat_password_txt'] = 'パスワード再入力';
+$wb['password_mismatch_txt'] = 'The passwords do not match. / パスワードが一致しません。';
+$wb['password_match_txt'] = 'The passwords do match. / パスワードが一致しました。';
+$wb['no_folder_perm'] = 'You have no permission for this folder. / このフォルダへの権限がありません。';
+$wb['error_user_exists_already_txt'] = 'There is already a record for this user. / このユーザーは既に登録されています。';

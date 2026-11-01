@@ -1,0 +1,17 @@
+<?php
+$wb['invoices_txt'] = '請求書';
+$wb['invoice_no_txt'] = '請求書番号';
+$wb['amount_txt'] = '金額';
+$wb['date_txt'] = '日付';
+$wb['invoice_status_txt'] = '状態';
+$wb['no_invoices_txt'] = '請求書はありません。';
+$wb['paid_txt'] = '支払済';
+$wb['unpaid_txt'] = '未払';
+$wb['paynow_txt'] = '今すぐ支払う';
+$wb['proforma_txt'] = '見積書';
+$wb['refunded_txt'] = '返金済';
+$wb['not_refunded_txt'] = '未返金';
+$wb['invoice_type_invoice_txt'] = '請求書';
+$wb['invoice_type_proforma_txt'] = '見積書';
+$wb['invoice_type_refund_txt'] = '返金';
+$wb['invoice_type_reminder_txt'] = '督促状';
