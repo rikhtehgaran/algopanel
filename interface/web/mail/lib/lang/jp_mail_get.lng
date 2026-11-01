@@ -1,0 +1,18 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['type_txt'] = '種別';
+$wb['source_server_txt'] = 'Pop3/Imap サーバー';
+$wb['source_username_txt'] = 'ユーザー名';
+$wb['source_password_txt'] = 'パスワード';
+$wb['source_delete_txt'] = '受信後にサーバーから削除する';
+$wb['source_delete_note_txt'] = 'このオプションを有効にする前に、メールの受信が正しく動作するか必ず確認してください。';
+$wb['source_read_all_txt'] = '全てのメール（既読を含む）を受信する';
+$wb['destination_txt'] = '配送先メールアドレス';
+$wb['active_txt'] = '有効';
+$wb['limit_fetchmail_txt'] = 'The max. number of Fetchmail records for your account is reached. / Fetchmailの作成上限に達しました。';
+$wb['source_server_error_isempty'] = 'Server is empty. / サーバーを入力してください。';
+$wb['source_username_error_isempty'] = 'Username is empty. / ユーザー名を入力してください。';
+$wb['source_password_error_isempty'] = 'Password is empty. / パスワードを入力してください。';
+$wb['destination_error_isemail'] = 'No destination selected. / 配送先が選択されていません。';
+$wb['source_server_error_regex'] = 'Pop3/Imap Server is not a valid domain name. / サーバー名が正しくありません。';
+$wb['error_delete_read_all_combination'] = 'Illegal combination of options. / 「受信後に削除＝いいえ」と「全て受信＝はい」を同時に指定することはできません。';

@@ -1,0 +1,13 @@
+<?php
+$wb['domain_txt'] = 'ドメイン';
+$wb['destination_txt'] = '転送先メールアドレス';
+$wb['active_txt'] = '有効';
+$wb['domain_error_unique'] = 'There is already a Catchall record for this domain. / このドメインのキャッチオール設定は既に存在します。';
+$wb['no_domain_perm'] = 'You have no permission for this domain. / このドメインの権限がありません。';
+$wb['domain_error_regex'] = 'Invalid domain name. / ドメイン名が不正か、無効な文字が含まれています。';
+$wb['limit_mailcatchall_txt'] = 'The max. number of email catchall accounts is reached. / キャッチオールアカウントの作成上限に達しました。';
+$wb['source_txt'] = '転送元';
+$wb['destination_error_isemail'] = 'Destination is no valid email address. / 転送先のメールアドレスが正しくありません。';
+$wb['greylisting_txt'] = 'グレーリスティングを有効にする';
+$wb['send_as_txt'] = '「次として送信」を許可';
+$wb['send_as_exp'] = '転送先ユーザーが、このドメインのアドレスを差出人として送信することを許可します。';

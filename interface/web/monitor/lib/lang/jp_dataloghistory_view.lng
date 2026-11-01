@@ -1,0 +1,26 @@
+<?php
+$wb['i'] = '追加';
+$wb['u'] = '更新';
+$wb['d'] = '削除';
+$wb['list_head_txt'] = 'データ更新履歴の詳細';
+$wb['id_txt'] = 'ID';
+$wb['timestamp_txt'] = 'タイムスタンプ';
+$wb['table_txt'] = 'テーブル名';
+$wb['action_txt'] = '操作内容';
+$wb['session_id_txt'] = 'セッションID';
+$wb['fields_txt'] = 'フィールド';
+$wb['fields_inserted_txt'] = '追加されたフィールド';
+$wb['fields_updated_txt'] = '更新されたフィールド';
+$wb['fields_deleted_txt'] = '削除されたフィールド';
+$wb['no_changes_txt'] = '変更なし (再同期)';
+$wb['is_diff_txt'] = '差異が強調表示されています';
+$wb['is_diff_inserts_txt'] = '追加分';
+$wb['is_diff_deletes_txt'] = '削除分';
+$wb['field_txt'] = '項目名';
+$wb['value_txt'] = '値';
+$wb['old_txt'] = '変更前';
+$wb['new_txt'] = '変更後';
+$wb['btn_cancel_txt'] = '戻る';
+$wb['undo_txt'] = '操作を元に戻す';
+$wb['undo_confirmation_txt'] = 'Do you really want to undo this action? / 本当にこの操作を元に戻しますか？';
+$wb['username_txt'] = 'ユーザー名';

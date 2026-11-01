@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Webサイト容量制限';
+$wb['domain_txt'] = 'ドメイン / サイト';
+$wb['system_user_txt'] = 'Linuxユーザー';
+$wb['used_txt'] = '使用量';
+$wb['hard_txt'] = '最大制限(Hard)';
+$wb['soft_txt'] = '警告制限(Soft)';
+$wb['files_txt'] = 'ファイル数';
+$wb['percentage_txt'] = '使用率 %';

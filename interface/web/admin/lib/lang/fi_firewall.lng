@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Palvelin';
+$wb['tcp_port_txt'] = 'Avoimet TCP-portit';
+$wb['udp_port_txt'] = 'Avoimet UDP-portit';
+$wb['tcp_port_help_txt'] = 'Pilkulla erotettu lista';
+$wb['udp_port_help_txt'] = 'Pilkulla erotettu lista';
+$wb['active_txt'] = 'Käytössä';
+$wb['firewall_error_unique'] = 'Tällainen palomuurisäänto on jo tällä palvelimella.';
+$wb['tcp_ports_error_regex'] = 'Merkki ei ole sallittu tcp-portin määrittelyssä. Sallittuja merkkejä ovat numerot, : ja ,.';
+$wb['udp_ports_error_regex'] = 'Merkki ei ole sallittu udp-portin määrittelyssä. Sallittuja merkkejä ovat numerot, : ja ,.';
+$wb['firewall_managed_externally_txt'] = 'The firewall of this server is managed externally (see the server configuration). ISPConfig does not apply this record on the server while that setting is enabled.';
+$wb['firewall_managed_externally_error'] = 'The firewall of this server is managed externally, the record can not be changed. Disable "Firewall managed externally" in the server configuration first.';
+?>

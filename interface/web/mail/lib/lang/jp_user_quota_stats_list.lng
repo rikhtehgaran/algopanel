@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'メールボックス容量制限';
+$wb['quota_txt'] = '容量制限';
+$wb['name_txt'] = '名前';
+$wb['email_txt'] = 'メールアドレス';
+$wb['used_txt'] = '使用量';
+$wb['percentage_txt'] = '使用率 %';

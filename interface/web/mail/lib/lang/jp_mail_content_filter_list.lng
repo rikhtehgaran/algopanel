@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'メールコンテンツフィルター (Postfix)';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['pattern_txt'] = 'パターン';
+$wb['action_txt'] = 'アクション';
+$wb['add_new_record_txt'] = 'フィルターを新規作成';

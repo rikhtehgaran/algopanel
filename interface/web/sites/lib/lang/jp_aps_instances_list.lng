@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'インストール済みパッケージ';
+$wb['name_txt'] = '名前';
+$wb['version_txt'] = 'バージョン';
+$wb['customer_txt'] = 'クライアント';
+$wb['status_txt'] = '状態';
+$wb['install_location_txt'] = 'インストール先';
+$wb['pkg_delete_confirmation'] = 'このインストールを本当に削除しますか？';
+$wb['filter_txt'] = '検索';
+$wb['delete_txt'] = '削除';

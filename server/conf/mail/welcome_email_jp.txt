@@ -1,0 +1,12 @@
+From: {admin_name} <{admin_mail}>
+Subject: [ISPConfig] 新しいメールアカウントへようこそ / Welcome to your new email account
+
+新しいメールアカウントの作成が完了いたしました。
+Your new email account is now active.
+
+ご利用ありがとうございます。
+Thank you for using our services.
+
+--
+ISPConfig システム / ISPConfig System
+https://www.ispconfig.org

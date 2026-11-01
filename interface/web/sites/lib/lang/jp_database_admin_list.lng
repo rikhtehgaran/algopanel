@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'データベース';
+$wb['active_txt'] = '有効';
+$wb['remote_access_txt'] = 'リモートアクセス';
+$wb['type_txt'] = '種類';
+$wb['server_id_txt'] = 'サーバー';
+$wb['database_user_txt'] = 'データベースユーザー';
+$wb['database_name_txt'] = 'データベース名';
+$wb['add_new_record_txt'] = 'データベースを新規作成';
+$wb['sys_groupid_txt'] = 'クライアント';
+$wb['parent_domain_id_txt'] = 'ウェブサイト';

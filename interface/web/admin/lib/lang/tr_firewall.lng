@@ -1,0 +1,14 @@
+<?php
+$wb['server_id_txt'] = 'Sunucu';
+$wb['tcp_port_txt'] = 'Açık TCP kapıları';
+$wb['udp_port_txt'] = 'Açık UDP kapıları';
+$wb['tcp_port_help_txt'] = 'Virgül ile ayırarak yazın';
+$wb['udp_port_help_txt'] = 'Virgül ile ayırarak yazın';
+$wb['active_txt'] = 'Etkin';
+$wb['firewall_error_unique'] = 'Bu sunucu için bir güvenlik duvarı kaydı zaten var.';
+$wb['active_txt'] = 'Etkin';
+$wb['tcp_ports_error_regex'] = 'TCP kapı açıklamasında karakter kullanılamaz. Yalnız rakam, ":" ve "," karakterleri kullanılabilir.';
+$wb['udp_ports_error_regex'] = 'UDP kapı açıklamasında karakter kullanılamaz. Yalnız rakam, ":" ve "," karakterleri kullanılabilir.';
+$wb['firewall_managed_externally_txt'] = 'The firewall of this server is managed externally (see the server configuration). ISPConfig does not apply this record on the server while that setting is enabled.';
+$wb['firewall_managed_externally_error'] = 'The firewall of this server is managed externally, the record can not be changed. Disable "Firewall managed externally" in the server configuration first.';
+?>

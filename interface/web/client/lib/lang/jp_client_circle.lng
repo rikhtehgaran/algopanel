@@ -1,0 +1,8 @@
+<?php
+$wb['Client Circle'] = 'クライアントサークル';
+$wb['Circle'] = 'サークル';
+$wb['circle_txt'] = 'サークル';
+$wb['circle_name_txt'] = 'サークル名';
+$wb['client_ids_txt'] = 'クライアント / リセラー';
+$wb['description_txt'] = '説明';
+$wb['active_txt'] = '有効';

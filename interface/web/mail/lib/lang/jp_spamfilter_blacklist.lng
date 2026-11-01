@@ -1,0 +1,11 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['wb_txt'] = '種別 (W/B)';
+$wb['rid_txt'] = 'ユーザー';
+$wb['email_txt'] = 'メールアドレス';
+$wb['priority_txt'] = '優先度';
+$wb['active_txt'] = '有効';
+$wb['limit_spamfilter_wblist_txt'] = 'The max. number of White- or Blacklist records for your account is reached. / ホワイト・ブラックリストの作成上限に達しました。';
+$wb['10 - highest'] = '10 - 最高';
+$wb['5 - medium'] = '5 - 中';
+$wb['1 - lowest'] = '1 - 最低';

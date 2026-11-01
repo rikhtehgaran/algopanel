@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Сервер';
+$wb['tcp_port_txt'] = 'Открытые порты TCP';
+$wb['udp_port_txt'] = 'Открытые порты UDP';
+$wb['tcp_port_help_txt'] = 'Перечислить порты TCP через запятую';
+$wb['udp_port_help_txt'] = 'Перечислить порты UDP через запятую';
+$wb['active_txt'] = 'Активно';
+$wb['firewall_error_unique'] = 'Уже есть такая запись брандмауэра для этого сервера.';
+$wb['tcp_ports_error_regex'] = 'Недопустимый символ в указании TCP порта. Корректные сиволы - цифры, \\":\\" и \\",\\"';
+$wb['udp_ports_error_regex'] = 'Некорректный символ в указании UDP порта. Допустимые сиволы - цифры, \\":\\" и \\",\\"';
+$wb['firewall_managed_externally_txt'] = 'The firewall of this server is managed externally (see the server configuration). ISPConfig does not apply this record on the server while that setting is enabled.';
+$wb['firewall_managed_externally_error'] = 'The firewall of this server is managed externally, the record can not be changed. Disable "Firewall managed externally" in the server configuration first.';
+?>

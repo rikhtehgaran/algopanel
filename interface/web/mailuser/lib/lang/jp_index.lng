@@ -1,0 +1,11 @@
+<?php
+$wb['page_head_txt'] = 'メールボックス設定';
+$wb['page_desc_txt'] = 'ここでメールアカウントの設定を変更できます。';
+$wb['email_txt'] = 'メールアドレス';
+$wb['login_txt'] = 'ログイン名';
+$wb['server_address_txt'] = 'メールサーバーのアドレス';
+$wb['cc_txt'] = 'コピーの送信先 (CC)';
+$wb['quota_txt'] = 'メールボックスの容量';
+$wb['unlimited_txt'] = '無制限';
+$wb['mb_txt'] = 'MB';
+$wb['none_txt'] = 'なし';

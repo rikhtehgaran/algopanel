@@ -1,0 +1,16 @@
+<?php
+$wb['config_txt'] = '設定';
+$wb['server_name_txt'] = 'サーバー名';
+$wb['mail_server_txt'] = 'メールサーバー';
+$wb['web_server_txt'] = 'ウェブサーバー';
+$wb['dns_server_txt'] = 'DNSサーバー';
+$wb['file_server_txt'] = 'ファイルサーバー';
+$wb['db_server_txt'] = 'データベースサーバー';
+$wb['vserver_server_txt'] = 'VServerサーバー';
+$wb['proxy_server_txt'] = 'プロキシサーバー';
+$wb['firewall_server_txt'] = 'ファイアウォールサーバー';
+$wb['active_txt'] = '有効';
+$wb['mirror_server_id_txt'] = 'ミラー元サーバー';
+$wb['- None -'] = '- なし -';
+$wb['xmpp_server_txt'] = 'XMPPサーバー';
+$wb['server_name_error_regex'] = 'Invalid server name. / サーバー名が不正です。英数字、スペース、ハイフン、ドット、アンダースコア、括弧のみ使用可能です。';

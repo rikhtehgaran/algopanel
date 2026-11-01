@@ -1,0 +1,5 @@
+<?php
+$wb['list_head_txt'] = 'ドメイン';
+$wb['add_new_record_txt'] = 'ドメインを新規追加';
+$wb['domain_txt'] = 'ドメイン';
+$wb['user_txt'] = 'クライアント';

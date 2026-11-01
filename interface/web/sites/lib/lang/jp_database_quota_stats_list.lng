@@ -1,0 +1,8 @@
+<?php
+$wb['database_txt'] = 'データベース';
+$wb['server_name_txt'] = 'サーバー';
+$wb['client_txt'] = 'クライアント';
+$wb['used_txt'] = '使用量';
+$wb['quota_txt'] = '制限容量';
+$wb['percentage_txt'] = '使用率 (%)';
+$wb['list_head_txt'] = 'データベース容量統計';

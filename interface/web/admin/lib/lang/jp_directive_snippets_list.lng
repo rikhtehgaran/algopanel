@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = '設定スニペット';
+$wb['active_txt'] = '有効';
+$wb['name_txt'] = 'スニペット名';
+$wb['type_txt'] = '種別';
+$wb['add_new_record_txt'] = 'スニペットを追加';
+$wb['customer_viewable_txt'] = 'クライアントに表示';

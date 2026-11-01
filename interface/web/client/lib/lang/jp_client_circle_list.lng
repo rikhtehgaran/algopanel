@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'クライアントサークル';
+$wb['circle_id_txt'] = 'サークルID';
+$wb['circle_name_txt'] = 'サークル名';
+$wb['description_txt'] = '説明';
+$wb['add_new_record_txt'] = '新規サークルを追加';
+$wb['filter_txt'] = 'フィルター';
+$wb['delete_txt'] = '削除';
+$wb['active_txt'] = '有効';

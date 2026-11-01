@@ -1,0 +1,3 @@
+<?php
+$wb['page_head_txt'] = '管理パネル ツール';
+$wb['page_desc_txt'] = 'ユーザー設定の変更などを行います';

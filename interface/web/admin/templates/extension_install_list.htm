@@ -1,0 +1,51 @@
+<div class='page-header'>
+	<h1><tmpl_var name="install_list_head_txt"></h1>
+</div>
+
+<!--<p><tmpl_var name="install_list_desc_txt"></p> -->
+<p class="fieldset-legend">{tmpl_var name="toolsarea_head_txt"}</p>
+<!-- <button class="btn btn-default formbutton-success" type="button" data-load-content="admin/firewall_edit.php">{tmpl_var name="add_new_record_txt"}</button> -->
+<p class="fieldset-legend"><tmpl_var name="list_head_txt"></p>
+
+<tmpl_if name="has_pending_installs">
+    <div class="alert alert-warning">
+        <tmpl_var name="pending_installs_txt">
+    </div>
+</tmpl_if>
+
+<div class="table-wrapper marginTop15">
+    <table class="table">
+        <thead class="dark form-group-sm">
+            <tr>
+                <th data-column="active"><tmpl_var name="active_txt"></th>
+                <th data-column="server_id"><tmpl_var name="server_id_txt"></th>
+                <th data-column="name"><tmpl_var name="name_txt"></th>
+                <th data-column="version"><tmpl_var name="installed_version_txt"></th>
+                <th data-column="title"><tmpl_var name="title_txt"></th>
+                <th class="small-col text-right">{tmpl_var name='search_limit'}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tmpl_if name="has_records">
+            <tmpl_loop name="records">
+                <tr>
+                    <td><a href="#" data-load-content="admin/extension_edit.php?name={tmpl_var name='name'}&action=edit&server_id={tmpl_var name='server_id'}">{tmpl_var name="active"}</a></td>
+                    <td><a href="#" data-load-content="admin/extension_edit.php?name={tmpl_var name='name'}&action=edit&server_id={tmpl_var name='server_id'}">{tmpl_var name="server_name"}</a></td>
+                    <td><a href="#" data-load-content="admin/extension_edit.php?name={tmpl_var name='name'}&action=edit&server_id={tmpl_var name='server_id'}">{tmpl_var name="name"}</a></td>
+                    <td><a href="#" data-load-content="admin/extension_edit.php?name={tmpl_var name='name'}&action=edit&server_id={tmpl_var name='server_id'}">{tmpl_var name="version"}</a></td>
+                    <td><a href="#" data-load-content="admin/extension_edit.php?name={tmpl_var name='name'}&action=edit&server_id={tmpl_var name='server_id'}">{tmpl_var name="title"}</a></td>
+                    <td class="text-right">
+                        <a class="btn btn-default formbutton-danger formbutton-narrow" href="javascript: ISPConfig.confirm_action('admin/extension_edit.php?name={tmpl_var name='name'}&server_id={tmpl_var name='server_id'}&action=delete&_csrf_id={tmpl_var name='csrf_id'}&_csrf_key={tmpl_var name='csrf_key'}&phpsessid={tmpl_var name='phpsessid'}','{tmpl_var name='delete_confirmation'}');"><span class="icon icon-delete"></span></a>
+                    </td>
+                </tr>
+            </tmpl_loop>
+            <tmpl_else>
+                <tr>
+                    <td colspan="6" class="text-center"><tmpl_var name="no_records_txt"></td>
+                </tr>
+            </tmpl_if>
+        </tbody>
+    </table>
+</div>
+        
+    

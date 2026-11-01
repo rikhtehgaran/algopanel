@@ -1,0 +1,12 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['destination_txt'] = '配送先';
+$wb['type_txt'] = '種別';
+$wb['mx_txt'] = 'MXルックアップを行わない';
+$wb['sort_order_txt'] = '並び順';
+$wb['active_txt'] = '有効';
+$wb['limit_mailrouting_txt'] = 'The max. number of routes for your account is reached. / メールの配送ルート作成上限に達しました。';
+$wb['transport_txt'] = 'トランスポート';
+$wb['domain_error_unique'] = 'A mail transport for this Domain already exists on this server. / このドメインのメールトランスポート設定は既に存在します。';
+$wb['domain_is_maildomain'] = 'The Domain is already set as a E-Mail Domain. / このドメインは既にメールドメインとして設定されています。';

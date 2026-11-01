@@ -1,0 +1,13 @@
+<?php
+$wb['login_1_txt'] = '次のユーザーとしてログインしますか：';
+$wb['login_2_txt'] = 'ログインした場合、ログアウトをクリックすることで元の画面に戻ることができます。';
+$wb['btn_yes_txt'] = 'はい、クライアントとしてログイン';
+$wb['btn_back_txt'] = 'いいえ、一覧に戻る';
+$wb['udp_port_help_txt'] = 'カンマ区切り';
+$wb['active_txt'] = '有効';
+$wb['firewall_error_unique'] = 'このサーバーには既にファイアウォールレコードが存在します。';
+$wb['tcp_ports_error_regex'] = 'TCPポートの指定に不正な文字が含まれています。使用可能な文字は数字、":"、"," です。';
+$wb['udp_ports_error_regex'] = 'UDPポートの指定に不正な文字が含まれています。使用可能な文字は数字、":"、"," です。';
+$wb['login_as_or_logout_txt'] = '{UTYPE} として再ログインしますか？ それともログアウトしますか？';
+$wb['btn_reloginas_txt'] = 'はい、 %s として再ログイン';
+$wb['btn_nologout_txt'] = 'いいえ、ログアウト';

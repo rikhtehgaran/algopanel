@@ -1,0 +1,12 @@
+<?php
+$wb['User Settings'] = 'ユーザー設定';
+$wb['Settings'] = '設定';
+$wb['ISPConfig Tools'] = 'ISPConfigツール';
+$wb['Interface'] = 'インターフェース';
+$wb['Password and Language'] = 'パスワードと言語';
+$wb['ispconfig_tools_note'] = 'This module allows you to change the password and language and to start a resync of the DNS records. / このモジュールでは、パスワードと言語の変更、およびDNSレコードの再同期を行えます。';
+$wb['Sync Tools'] = '同期ツール';
+$wb['Resync'] = '再同期';
+$wb['Import'] = 'インポート';
+$wb['ISPConfig 3 mail'] = 'ISPConfig 3メール';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';

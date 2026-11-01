@@ -1,0 +1,6 @@
+<?php
+$wb['name_txt'] = '名前';
+$wb['fields_txt'] = '入力フィールド';
+$wb['template_txt'] = 'テンプレート';
+$wb['visible_txt'] = '表示';
+$wb['placeholder_txt'] = 'プレースホルダー';

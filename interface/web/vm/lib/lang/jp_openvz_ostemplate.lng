@@ -1,0 +1,10 @@
+<?php
+$wb['template_name_txt'] = 'テンプレート名';
+$wb['template_file_txt'] = 'テンプレートファイル名';
+$wb['server_id_txt'] = 'サーバー';
+$wb['allservers_txt'] = 'すべてのサーバーに存在';
+$wb['active_txt'] = '有効';
+$wb['description_txt'] = '説明';
+$wb['template_name_error_empty'] = 'Template name is empty. / テンプレート名を入力してください。';
+$wb['template_file_error_empty'] = 'Template filename is empty. / テンプレートファイル名を入力してください。';
+$wb['Template'] = 'テンプレート';

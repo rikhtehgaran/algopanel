@@ -1,0 +1,4 @@
+<?php
+$wb['description_txt'] = '説明';
+$wb['name_txt'] = 'グループ名';
+$wb['name_err'] = 'Group must be min 1, max 30 Chars. / グループ名は1文字以上30文字以内で入力してください。';

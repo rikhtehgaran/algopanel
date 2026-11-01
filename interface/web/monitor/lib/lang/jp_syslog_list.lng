@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'システム操作ログ';
+$wb['tstamp_txt'] = '日付';
+$wb['server_id_txt'] = 'サーバー';
+$wb['loglevel_txt'] = 'ログレベル';
+$wb['message_txt'] = 'メッセージ';
+$wb['batch_delete_warnings_txt'] = 'すべての警告を削除';
+$wb['batch_delete_errors_txt'] = 'すべてのエラーを削除';
+$wb['batch_delete_confirmation'] = 'Are you sure you want to acknowledge all log entries? / すべてのログを確認済みにしてもよろしいですか？';

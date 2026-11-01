@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'セカンダリDNSゾーン';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['origin_txt'] = 'ゾーン';
+$wb['ns_txt'] = 'ネームサーバー (NS)';
+$wb['add_new_record_txt'] = 'セカンダリDNSゾーンを追加';
+$wb['eg_domain_tld'] = '例: domain.tld.';
+$wb['sys_groupid_txt'] = 'クライアント';

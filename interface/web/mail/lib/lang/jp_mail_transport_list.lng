@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = '高度なメール配送ルート';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['transport_txt'] = 'トランスポート';
+$wb['sort_order_txt'] = '並び順';
+$wb['add_new_record_txt'] = '配送ルートを追加';

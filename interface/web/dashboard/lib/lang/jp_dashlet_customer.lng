@@ -1,0 +1,3 @@
+<?php
+$wb['customerdata_txt'] = '登録情報';
+$wb['edit_txt'] = '編集';

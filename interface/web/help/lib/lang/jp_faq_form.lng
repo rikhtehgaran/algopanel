@@ -1,0 +1,5 @@
+<?php
+$wb['faq_faq_txt'] = 'よくある質問 (FAQ)';
+$wb['faq_question_txt'] = '質問';
+$wb['faq_answer_txt'] = '回答';
+$wb['faq_section_txt'] = 'セクション';

@@ -1,0 +1,6 @@
+<?php
+$wb['domain_error_empty'] = 'The domain-name is empty / ドメイン名を入力してください。';
+$wb['domain_error_unique'] = 'The domain already exists / このドメイン名は既に登録されています。';
+$wb['domain_error_regex'] = 'This domain-name is not allowed / このドメイン名は許可されていません。';
+$wb['Domain'] = 'ドメイン';
+$wb['domain_txt'] = 'ドメイン';

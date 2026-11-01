@@ -1,0 +1,25 @@
+<?php
+$wb['zone_file_import_txt'] = 'ゾーンファイルのインポート';
+$wb['server_id_txt'] = 'サーバー';
+$wb['client_txt'] = 'クライアント';
+$wb['btn_save_txt'] = 'ゾーンファイルをインポート';
+$wb['btn_cancel_txt'] = 'キャンセル';
+$wb['domain_txt'] = 'ドメイン';
+$wb['zone_file_successfully_imported_txt'] = 'The zone file has successfully been imported. / ゾーンファイルのインポートに成功しました。';
+$wb['error_no_valid_zone_file_txt'] = 'This zone file appears invalid. / このゾーンファイルは不正な形式のようです。';
+$wb['zonefile_to_import_txt'] = 'ゾーンファイル';
+$wb['domain_field_desc_txt'] = '空欄の場合、ドメイン名はSOAレコードから取得されます。';
+$wb['title'] = 'ゾーンファイルのインポート';
+$wb['no_file_uploaded_error'] = 'No zonefile uploaded. / ゾーンファイルがアップロードされていません。';
+$wb['error_no_server_id'] = 'No server provided. / サーバーが選択されていません。';
+$wb['error_not_allowed_server_id'] = 'The selected server is not allowed. / このアカウントでは選択されたサーバーの使用は許可されていません。';
+$wb['zone_already_exists'] = 'This zone already exists. / このゾーンは既に存在します。先に削除するか名前を変更してください。';
+$wb['zone_not_allowed'] = 'This zone is not allowed. / このドメインのゾーン作成は許可されていません。';
+$wb['zone_file_missing_soa'] = 'The zone file must contain a SOA record. / ゾーンファイルにはSOAレコードが含まれている必要があります。';
+$wb['zone_file_multiple_soa'] = 'Multiple SOA records. / ゾーンファイルに複数のSOAレコードを含めることはできません。';
+$wb['zone_file_soa_parser'] = 'SOA record could not be processed. / SOAレコードを処理できませんでした。SERIAL, REFRESH, RETRY, EXPIRE, MINIMUM がそれぞれ独立した行にあるか確認してください。';
+$wb['ignore_record_not_class_in'] = 'Ignoring DNS record, not class IN. / クラスが IN ではないため、このレコードを無視しました。';
+$wb['ignore_record_unknown_type'] = 'Ignoring DNS record, unknown type. / 未知のタイプのため、このレコードを無視しました。';
+$wb['ignore_record_invalid_owner'] = 'Ignoring DNS record, invalid owner name. / 所有者名を検証できないため、このレコードを無視しました。';
+$wb['zone_file_import_fail'] = 'The zone file did not import. / ゾーンファイルのインポートに失敗しました。';
+$wb['ignore_ns_records_txt'] = 'NSレコードを無視する';
