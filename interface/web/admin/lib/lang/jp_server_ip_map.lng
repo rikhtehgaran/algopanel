@@ -1,0 +1,13 @@
+<?php
+$wb['server_ip_map_title'] = 'IPv4アドレスマッピング';
+$wb['server_ip_map_desc'] = 'Webサーバー用IPv4アドレスのマッピング設定フォーム';
+$wb['server_id_txt'] = '書き換え対象サーバー';
+$wb['source_txt'] = '変換元IPアドレス';
+$wb['destination_txt'] = '変換先IPアドレス';
+$wb['active_txt'] = '有効';
+$wb['ip_error_wrong'] = 'The Destination IP address is invalid. / 変換先IPアドレスが不正です。';
+$wb['destination_ip_empty'] = 'The Destination IP is empty. / 変換先IPを入力してください。';
+$wb['source_ip_empty'] = 'The Source IP is empty. / 変換元IPを入力してください。';
+$wb['server_empty_error'] = 'The Server is empty. / サーバーを選択してください。';
+$wb['duplicate_mapping_error'] = 'Mapping already exists. / このマッピング設定は既に存在します。';
+$wb['ip_mapping_error'] = 'Source IP can not be an IP of the Rewrite-Server. / 変換元IPに、書き換え対象サーバー自身のIPを指定することはできません。';

@@ -1,0 +1,18 @@
+<?php
+$wb['password_txt'] = 'パスワード';
+$wb['password_strength_txt'] = 'パスワード強度';
+$wb['language_txt'] = '言語';
+$wb['password_mismatch'] = 'The password in the second password field does not match the first password. / 再入力されたパスワードが一致しません。';
+$wb['Form to edit the user password and language.'] = 'パスワードと言語の設定フォーム';
+$wb['Settings'] = '設定';
+$wb['generate_password_txt'] = 'パスワード生成';
+$wb['repeat_password_txt'] = 'パスワード再入力';
+$wb['password_mismatch_txt'] = 'The passwords do not match. / パスワードが一致しません。';
+$wb['password_match_txt'] = 'The passwords do match. / パスワードが一致しました。';
+$wb['startmodule_txt'] = '初期表示モジュール';
+$wb['app_theme_txt'] = 'デザイン';
+$wb['startmodule_empty'] = 'Startmodule empty. / 初期表示モジュールが空です。';
+$wb['startmodule_regex'] = 'Invalid chars in Startmodule. / モジュール名に不正な文字が含まれています。';
+$wb['app_theme_empty'] = 'App theme empty. / テーマを選択してください。';
+$wb['app_theme_regex'] = 'Invalid chars in App theme. / テーマ名に不正な文字が含まれています。';
+$wb['otp_auth_txt'] = '2要素認証';

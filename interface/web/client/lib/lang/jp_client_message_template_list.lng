@@ -1,0 +1,4 @@
+<?php
+$wb['list_head_txt'] = 'メールテンプレート';
+$wb['template_type_txt'] = '対象者';
+$wb['template_name_txt'] = 'テンプレート名';

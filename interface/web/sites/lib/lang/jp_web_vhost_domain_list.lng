@@ -1,0 +1,13 @@
+<?php
+$wb['list_head_txt'] = 'ウェブサイト';
+$wb['domain_id_txt'] = 'ID';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['add_new_record_txt'] = '新しくサイトを追加';
+$wb['add_new_subdomain_txt'] = '新しくサブドメインを追加';
+$wb['add_new_aliasdomain_txt'] = '新しくエイリアスを追加';
+$wb['parent_domain_id_txt'] = 'ウェブサイト';
+$wb['domain_list_head_txt'] = 'ウェブサイト一覧';
+$wb['aliasdomain_list_head_txt'] = 'エイリアスドメイン (Vhost)';
+$wb['subdomain_list_head_txt'] = 'サブドメイン (Vhost)';

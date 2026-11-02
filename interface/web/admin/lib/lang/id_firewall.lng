@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['tcp_port_txt'] = 'Port TCP yang dibuka';
+$wb['udp_port_txt'] = 'Port UDP yang dibuka';
+$wb['tcp_port_help_txt'] = 'Dipisahkan oleh koma';
+$wb['udp_port_help_txt'] = 'Dipisahkan oleh koma';
+$wb['active_txt'] = 'Aktif';
+$wb['firewall_error_unique'] = 'Telah ada record firewall untuk server ini.';
+$wb['tcp_ports_error_regex'] = 'Karakter di definisi port TCP tidak diperbolehkan. Karakter yang diizinkan adalah angka, : dan ,.';
+$wb['udp_ports_error_regex'] = 'Karakter di definisi port UDP tidak diperbolehkan. Karakter yang diizinkan adalah angka, : dan ,.';
+$wb['firewall_managed_externally_txt'] = 'The firewall of this server is managed externally (see the server configuration). ISPConfig does not apply this record on the server while that setting is enabled.';
+$wb['firewall_managed_externally_error'] = 'The firewall of this server is managed externally, the record can not be changed. Disable "Firewall managed externally" in the server configuration first.';
+?>

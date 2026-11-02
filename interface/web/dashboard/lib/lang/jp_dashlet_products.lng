@@ -1,0 +1,8 @@
+<?php
+$wb['products_txt'] = '契約プラン';
+$wb['name_txt'] = 'プラン名';
+$wb['price_txt'] = '価格';
+$wb['next_payment_date_txt'] = '次回請求';
+$wb['no_products_txt'] = 'プランが見つかりません。';
+$wb['edit_txt'] = '編集';
+$wb['cancellation_date_txt'] = '解約日';

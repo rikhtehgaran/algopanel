@@ -1,0 +1,15 @@
+<?php
+$wb['email_txt'] = 'メールアドレス';
+$wb['destination_txt'] = '転送先メールアドレス';
+$wb['active_txt'] = '有効';
+$wb['limit_mailforward_txt'] = 'The max. number of email forwarders for your account is reached. / メール転送設定の最大数に達しました。';
+$wb['duplicate_mailbox_txt'] = 'There is already a mailbox with this email address / このアドレスのメールボックスが既に存在します。';
+$wb['domain_txt'] = 'ドメイン';
+$wb['source_txt'] = '転送元メールアドレス';
+$wb['destination_error_empty'] = 'The destination must not be empty. / 転送先を入力してください。';
+$wb['destination_error_isemail'] = 'The destination contains at least one invalid email address. / 転送先に不正なメールアドレスが含まれています。';
+$wb['email_error_isemail'] = 'Please enter a valid email address. / 有効なメールアドレスを入力してください。';
+$wb['email_error_unique'] = 'Duplicate Email Address. / メールアドレスが重複しています。';
+$wb['send_as_txt'] = '「次として送信」を許可';
+$wb['send_as_exp'] = '転送先（内部ユーザーのみ）が、このアドレスを差出人として送信することを許可します。';
+$wb['greylisting_txt'] = 'グレーリスティングを有効にする';

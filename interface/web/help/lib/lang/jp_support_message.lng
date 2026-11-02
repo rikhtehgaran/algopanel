@@ -1,0 +1,15 @@
+<?php
+$wb['recipient_id_txt'] = '宛先ID';
+$wb['sender_id_txt'] = '送信者ID';
+$wb['subject_txt'] = '件名';
+$wb['message_txt'] = '本文';
+$wb['tstamp_txt'] = 'タイムスタンプ';
+$wb['reply_txt'] = '返信';
+$wb['date_txt'] = '日付';
+$wb['support_request_subject_txt'] = 'サポート依頼 / Support Request';
+$wb['support_request_txt'] = 'You have got a support request. Please don\'t reply to this email, but process it inside the control panel. / サポート依頼が届きました。このメールには返信せず、管理パネルから対応を行ってください。';
+$wb['answer_to_support_request_txt'] = 'You have got a reply to your support request. Please don\'t reply to this email, but process the message inside the control panel. / サポート依頼への返信が届きました。詳細は管理パネルで確認してください。';
+$wb['answer_to_support_request_sent_txt'] = 'Your reply to the support request has been sent. / サポート依頼への返信を送信しました。';
+$wb['support_request_sent_txt'] = 'Your support request has been sent. / サポート依頼を送信しました。担当者からの回答をお待ちください。';
+$wb['recipient_or_sender_email_address_not_valid_txt'] = 'The message could not be sent. Email address is not valid. / 送信先または送信元のメールアドレスが正しくないため、送信できませんでした。';
+$wb['subject_is_empty'] = 'The subject can not be empty. / 件名を入力してください。';

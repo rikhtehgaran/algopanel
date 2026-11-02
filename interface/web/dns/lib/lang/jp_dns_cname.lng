@@ -1,0 +1,18 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'ターゲットのホスト名';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'The max. number of DNS records for your account is reached. / DNSレコードの最大作成数に達しました。';
+$wb['no_zone_perm'] = 'You do not have the permission to add a record to this DNS zone. / このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'The hostname is empty. / ホスト名を入力してください。';
+$wb['name_error_regex'] = 'The hostname has the wrong format. / ホスト名の形式が正しくありません。';
+$wb['data_error_empty'] = 'Target hostname empty / ターゲットのホスト名を入力してください。';
+$wb['data_error_regex'] = 'Target hostname format invalid / ターゲットのホスト名の形式が不正です。';
+$wb['data_error_not_found'] = 'Target hostname not found in the current zone. / ターゲットのホスト名が現在のゾーン内に見つかりません。外部ホストの場合は最後に「.」が必要です。';
+$wb['data_error_duplicate'] = 'Duplicate A, AAAA, ALIAS, CNAME, or DNAME record / A, AAAA, ALIAS, CNAME, DNAMEレコードのいずれかが重複しています。';
+$wb['cname_apex_not_allowed'] = 'CNAME records are not allowed at the zone apex. / ゾーンの頂点（ホスト名が空）にはCNAMEを設定できません。ALIASレコードを使用するか、サブドメインを指定してください。';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds. / TTLの最小値は60秒です。';

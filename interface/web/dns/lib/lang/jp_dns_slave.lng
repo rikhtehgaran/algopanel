@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['origin_txt'] = 'DNSゾーン';
+$wb['secondary_zone_txt'] = 'セカンダリDNSゾーン';
+$wb['ns_txt'] = 'ネームサーバー (IPアドレス)';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_slave_zone_txt'] = 'The max. number of Secondary DNS zones is reached. / セカンダリDNSゾーンの作成上限に達しました。';
+$wb['client_txt'] = 'クライアント';
+$wb['xfer_txt'] = 'ゾーン転送許可IP<br />(カンマ区切り)';
+$wb['server_id_error_empty'] = 'No server selected / サーバーが選択されていません。';
+$wb['origin_error_empty'] = 'Zone empty. / ゾーン名を入力してください。';
+$wb['origin_error_unique'] = 'There is already a record for this zone. / このゾーンは既に登録されています。';
+$wb['origin_error_regex'] = 'Zone has an invalid format. / ゾーン名の形式が不正です。';
+$wb['ns_error_regex'] = 'NS has a invalid format. / ネームサーバーの形式が不正です。';
+$wb['eg_domain_tld'] = '例: domain.tld.';
+$wb['ipv4_form_txt'] = '複数のIPはカンマで区切ってください';

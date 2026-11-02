@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'IPマッピング';
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_ip_txt'] = '送信元IP';
+$wb['destination_ip_txt'] = '送信先IP';
+$wb['active_txt'] = '有効';

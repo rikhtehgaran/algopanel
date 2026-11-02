@@ -1,0 +1,18 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'メールサーバーのホスト名';
+$wb['aux_txt'] = '優先度';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'The max. number of DNS records for your account is reached. / DNSレコードの最大作成数に達しました。';
+$wb['no_zone_perm'] = 'You do not have the permission to add a record to this DNS zone. / このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'The hostname is empty. / ホスト名を入力してください。';
+$wb['name_error_regex'] = 'The hostname has the wrong format. / ホスト名の形式が正しくありません。';
+$wb['data_error_empty'] = 'Mailserver hostname empty / メールサーバーのホスト名を入力してください。';
+$wb['data_error_regex'] = 'Mailserver hostname format invalid / メールサーバーのホスト名の形式が不正です。';
+$wb['duplicate_mx_record_txt'] = 'Duplicate MX record. / MXレコードが重複しています。';
+$wb['cname_conflict_txt'] = 'A CNAME record already exists. / 同一ホスト名にCNAMEレコードが既に存在します（CNAMEは他のレコードと共存できません）。';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds. / TTLの最小値は60秒です。';

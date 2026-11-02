@@ -1,0 +1,7 @@
+<?php
+$wb['mailquota_txt'] = 'メールボックス容量';
+$wb['email_txt'] = 'メールアドレス';
+$wb['name_txt'] = '名前';
+$wb['used_txt'] = '使用量';
+$wb['quota_txt'] = '容量制限';
+$wb['no_email_accounts_txt'] = 'メールアカウントが見つかりません。';

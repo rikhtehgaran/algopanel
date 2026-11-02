@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['priority_txt'] = '優先度';
+$wb['policy_id_txt'] = 'ポリシー';
+$wb['email_txt'] = 'メールアドレス (パターン)';
+$wb['fullname_txt'] = '名前';
+$wb['local_txt'] = 'ローカル';
+$wb['email_error_notempty'] = 'Email address must not be empty. / メールアドレスを入力してください。';
+$wb['fullname_error_notempty'] = 'Name must not be empty. / 名前を入力してください。';
+$wb['10 - highest'] = '10 - 最高';
+$wb['5 - medium'] = '5 - 中間';
+$wb['1 - lowest'] = '1 - 最低';
+$wb['inherit_policy'] = '- ドメイン設定を継承 -';

@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'IPアドレス一覧';
+$wb['server_id_txt'] = 'サーバー';
+$wb['vm_id_txt'] = 'VM';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['reserved_txt'] = '予約';

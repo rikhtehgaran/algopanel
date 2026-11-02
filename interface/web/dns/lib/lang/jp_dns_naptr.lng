@@ -1,0 +1,21 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['order_txt'] = '順序 (Order)';
+$wb['pref_txt'] = '優先度 (Pref)';
+$wb['flags_txt'] = 'フラグ';
+$wb['service_txt'] = 'サービス';
+$wb['regexp_txt'] = '正規表現 (RegExp)';
+$wb['replacement_txt'] = '置換 (Replacement)';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'The max. number of DNS records for your account is reached. / DNSレコードの最大作成数に達しました。';
+$wb['no_zone_perm'] = 'You do not have the permission to add a record to this DNS zone. / このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'The hostname is empty. / ホスト名を入力してください。';
+$wb['name_error_regex'] = 'The hostname has the wrong format. / ホスト名の形式が正しくありません。';
+$wb['data_error_empty'] = 'NAPTR record is empty. / NAPTRレコードが空です。';
+$wb['naptr_error_regex'] = 'Invalid NAPTR record. / NAPTRレコードが不正です。「順序」「優先度」および「正規表現」か「置換」のどちらかが必要です。';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds. / TTLの最小値は60秒です。';
+$wb['record_parse_error'] = 'Could not parse the record. / データベース内のレコードを解析できませんでした。';
+$wb['cname_conflict_txt'] = 'A CNAME record already exists. / 同一ホスト名にCNAMEレコードが既に存在します（CNAMEは他のレコードと共存できません）。';

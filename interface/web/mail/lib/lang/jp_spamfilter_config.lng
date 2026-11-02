@@ -1,0 +1,19 @@
+<?php
+$wb['getmail_config_dir_txt'] = 'Getmail設定パス';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['netmask_txt'] = 'ネットマスク';
+$wb['gateway_txt'] = 'ゲートウェイ';
+$wb['hostname_txt'] = 'ホスト名';
+$wb['nameservers_txt'] = 'ネームサーバー';
+$wb['module_txt'] = 'サーバーモジュール';
+$wb['maildir_path_txt'] = 'Maildirパス';
+$wb['homedir_path_txt'] = 'ホームディレクトリパス';
+$wb['mailuser_uid_txt'] = 'メールユーザーUID';
+$wb['mailuser_gid_txt'] = 'メールユーザーGID';
+$wb['mailuser_name_txt'] = 'メールユーザー名';
+$wb['mailuser_group_txt'] = 'メールユーザーグループ';
+$wb['relayhost_txt'] = 'リレーホスト';
+$wb['relayhost_user_txt'] = 'リレーホストユーザー';
+$wb['relayhost_password_txt'] = 'リレーホストパスワード';
+$wb['mailbox_size_limit_txt'] = 'メールボックス容量制限';
+$wb['message_size_limit_txt'] = 'メールサイズ制限';

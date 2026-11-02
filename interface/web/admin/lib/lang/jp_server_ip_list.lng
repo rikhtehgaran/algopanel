@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'IPアドレス';
+$wb['server_id_txt'] = 'サーバー';
+$wb['client_id_txt'] = 'クライアント';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['add_new_record_txt'] = 'IPアドレスを追加';
+$wb['virtualhost_txt'] = 'HTTP VHost';
+$wb['virtualhost_port_txt'] = 'HTTPポート';
+$wb['ip_type_txt'] = '種別';

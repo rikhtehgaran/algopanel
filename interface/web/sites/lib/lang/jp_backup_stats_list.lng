@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt']       = 'バックアップ統計';
+$wb['active_txt']          = '有効';
+$wb['domain_txt']          = 'ドメイン';
+$wb['backup_count_txt']    = 'バックアップ保持数';
+$wb['backup_server_txt']   = 'サーバー';
+$wb['backup_interval_txt'] = '間隔 / 数';
+$wb['backup_size_txt'] = 'サイズ';
+$wb['database_name_txt'] = '';

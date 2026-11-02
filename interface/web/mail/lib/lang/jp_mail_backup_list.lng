@@ -1,0 +1,15 @@
+<?php
+$wb['list_head_txt'] = '既存のバックアップ';
+$wb['date_txt'] = '日付';
+$wb['backup_type_txt'] = '種別';
+$wb['filename_txt'] = 'バックアップファイル';
+$wb['restore_backup_txt'] = '復元';
+$wb['restore_info_txt'] = 'Restore of the backup has been started. / バックアップの復元を開始しました。完了まで数分かかります。';
+$wb['restore_confirm_txt'] = 'Restoring may overwrite existing files. Do you really want to restore? / 既存のメールが上書きされる可能性があります。本当に復元しますか？';
+$wb['download_pending_txt'] = 'There is already a pending backup download job. / 既にダウンロードジョブが実行待ちです。';
+$wb['restore_pending_txt'] = 'There is already a pending backup restore job. / 既に復元ジョブが実行待ちです。';
+$wb['delete_backup_txt'] = 'バックアップを削除';
+$wb['delete_info_txt'] = 'Delete of the backup has been started. / 削除処理を開始しました。完了まで数分かかります。';
+$wb['delete_confirm_txt'] = 'Really delete this backup? / 本当にこのバックアップを削除しますか？';
+$wb['delete_pending_txt'] = 'There is already a pending backup delete job. / 既に削除ジョブが実行待ちです。';
+$wb['filesize_txt'] = 'ファイルサイズ';

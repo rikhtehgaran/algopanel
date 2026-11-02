@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = '追加のPHPバージョン';
+$wb['server_id_txt'] = 'サーバー';
+$wb['add_new_record_txt'] = 'PHPバージョンを追加';
+$wb['client_id_txt'] = 'クライアント';
+$wb['name_txt'] = 'PHP名';
+$wb['active_txt'] = '有効';
+$wb['usage_txt'] = '使用数';
+$wb['sortprio_txt'] = '優先度';

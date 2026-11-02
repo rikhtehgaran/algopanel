@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'XMPPドメイン';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['add_new_record_txt'] = 'ドメインを追加';
+$wb['active_txt'] = '有効';
+$wb['sys_groupid_txt'] = 'クライアント';

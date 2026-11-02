@@ -1,0 +1,8 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['type_txt'] = 'フィルター種別';
+$wb['pattern_txt'] = '正規表現パターン';
+$wb['data_txt'] = 'データ';
+$wb['action_txt'] = 'アクション';
+$wb['active_txt'] = '有効';
+$wb['pattern_error_empty'] = 'Pattern is empty. / パターンを入力してください。';

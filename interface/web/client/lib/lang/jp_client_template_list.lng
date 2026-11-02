@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'クライアント・リセラーテンプレート';
+$wb['template_type_txt'] = '種別';
+$wb['template_name_txt'] = 'テンプレート名';
+$wb['template_id_txt'] = 'テンプレートID';
+$wb['sys_groupid_txt'] = 'リセラー';

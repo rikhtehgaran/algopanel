@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'スパムフィルタポリシー';
+$wb['policy_name_txt'] = 'ポリシー名';
+$wb['virus_lover_txt'] = 'ウイルス許可';
+$wb['spam_lover_txt'] = 'スパム許可';
+$wb['banned_files_lover_txt'] = '禁止ファイル許可';
+$wb['bad_header_lover_txt'] = '不正ヘッダー許可';
+$wb['add_new_record_txt'] = 'ポリシーを追加';

@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = '仮想サーバー';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'ホストサーバー';
+$wb['ostemplate_id_txt'] = 'OSテンプレート';
+$wb['template_id_txt'] = 'テンプレート';
+$wb['hostname_txt'] = 'ホスト名';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['veid_txt'] = 'VEID';

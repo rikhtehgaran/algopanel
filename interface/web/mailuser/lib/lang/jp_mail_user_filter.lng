@@ -1,0 +1,26 @@
+<?php
+$wb['rulename_txt'] = '名前';
+$wb['action_txt'] = 'アクション';
+$wb['target_txt'] = 'フォルダ';
+$wb['active_txt'] = '有効';
+$wb['rulename_error_empty'] = 'Name is empty. / 名前を入力してください。';
+$wb['searchterm_is_empty'] = 'Search term is empty. / 検索語を入力してください。';
+$wb['source_txt'] = 'ソース';
+$wb['target_error_regex'] = 'The target may only contain these characters: a-z, 0-9, -, ., _, &, /, and {space} / フォルダ名には、a-z, 0-9, -, ., _, &, /, および スペース のみが使用可能です。';
+$wb['limit_mailfilter_txt'] = 'The max. number of mailfilters is reached. / メールフィルターの作成上限に達しました。';
+$wb['mailbox_filter_txt'] = 'メールボックスフィルター';
+$wb['subject_txt'] = '件名';
+$wb['from_txt'] = '送信元 (From)';
+$wb['to_txt'] = '宛先 (To)';
+$wb['list_id_txt'] = 'リストID (List ID)';
+$wb['contains_txt'] = 'を含む';
+$wb['is_txt'] = 'である';
+$wb['begins_with_txt'] = 'で始まる';
+$wb['ends_with_txt'] = 'で終わる';
+$wb['move_to_txt'] = 'フォルダへ移動';
+$wb['regex_txt'] = '正規表現に一致 (POSIX)';
+$wb['regex_hint_txt'] = 'Note: Regex uses POSIX ERE syntax. Inline flags like (?i) are not supported. For case-insensitive matching, use "Contains" instead, or use character classes like [aA][bB][cC] in regex. / 注：正規表現は POSIX ERE 構文を使用します。(?i) のようなインラインフラグはサポートされていません。大文字・小文字を区別しない場合は「を含む」を使用するか、正規表現内で [aA][bB][cC] のように指定してください。';
+$wb['delete_txt'] = '削除する';
+$wb['header_txt'] = 'ヘッダー';
+$wb['size_over_txt'] = 'サイズが指定以上 (KB)';
+$wb['size_under_txt'] = 'サイズが指定未満 (KB)';

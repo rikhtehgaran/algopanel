@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Serveur';
+$wb['tcp_port_txt'] = 'Ouvrir des ports TCP';
+$wb['udp_port_txt'] = 'Ouvrir des ports UDP';
+$wb['tcp_port_help_txt'] = 'Séparés par des virgules';
+$wb['udp_port_help_txt'] = 'Séparés par des virgules';
+$wb['active_txt'] = 'Actif';
+$wb['firewall_error_unique'] = 'Il y a déjà un enregistrement dans le pare-feu pour ce serveur.';
+$wb['tcp_ports_error_regex'] = 'Caractère non autorisé dans la définition du port TCP. Les caractères autorisés sont les nombres, : et ,.';
+$wb['udp_ports_error_regex'] = 'Caractère non autorisé dans la définition du port UDP. Les caractères autorisés sont les nombres, : et ,.';
+$wb['firewall_managed_externally_txt'] = 'The firewall of this server is managed externally (see the server configuration). ISPConfig does not apply this record on the server while that setting is enabled.';
+$wb['firewall_managed_externally_error'] = 'The firewall of this server is managed externally, the record can not be changed. Disable "Firewall managed externally" in the server configuration first.';
+?>

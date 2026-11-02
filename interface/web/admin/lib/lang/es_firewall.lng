@@ -1,0 +1,13 @@
+<?php
+$wb['active_txt'] = 'Habilitado';
+$wb['firewall_error_unique'] = 'Ya existe un registro de cortafuegos para este servidor.';
+$wb['server_id_txt'] = 'Servidor';
+$wb['tcp_port_help_txt'] = 'Separados por coma';
+$wb['tcp_port_txt'] = 'Puertos TCP abiertos';
+$wb['tcp_ports_error_regex'] = 'Caracteres no permitidos en la definición de puertos tcp. Los caracteres permitidos son: números, \\":\\" y \\",\\".';
+$wb['udp_port_help_txt'] = 'Separados por coma';
+$wb['udp_port_txt'] = 'Puertos UDP abiertos';
+$wb['udp_ports_error_regex'] = 'Caracteres no permitidos en la definición de puertos udp. Los caracteres permitidos son: números, \\":\\" y \\",\\".';
+$wb['firewall_managed_externally_txt'] = 'The firewall of this server is managed externally (see the server configuration). ISPConfig does not apply this record on the server while that setting is enabled.';
+$wb['firewall_managed_externally_error'] = 'The firewall of this server is managed externally, the record can not be changed. Disable "Firewall managed externally" in the server configuration first.';
+?>
