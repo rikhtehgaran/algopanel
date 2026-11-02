@@ -103,7 +103,7 @@ if($_SESSION['s']['user']['typ'] == 'admin') {
 
 
 	//* Add the menu items defined above to a menu section labeled 'Support'
-	$module['nav'][] = array( 'title' => 'About ISPConfig',
+	$module['nav'][] = array( 'title' => 'About AlgoPanel',
 		'open'  => 1,
 		'items' => $items);
 }
