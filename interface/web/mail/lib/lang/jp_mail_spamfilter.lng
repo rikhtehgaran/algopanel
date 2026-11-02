@@ -1,0 +1,16 @@
+<?php
+$wb['email_txt'] = 'メールアドレス';
+$wb['spam_rewrite_score_int_txt'] = '書き換えスコア';
+$wb['spam_redirect_score_int_txt'] = '転送スコア';
+$wb['spam_delete_score_int_txt'] = '削除スコア';
+$wb['spam_rewrite_subject_txt'] = '件名の書き換え';
+$wb['spam_redirect_maildir_txt'] = '転送先メールボックス';
+$wb['active_txt'] = '有効';
+$wb['spam_rewrite_txt'] = 'このスコアを超えたメールの件名を書き換えます。';
+$wb['spam_redirect_txt'] = 'このスコアを超えたメールを指定したメールボックスに転送します。';
+$wb['spam_delete_txt'] = 'このスコアを超えたメールを削除します。';
+$wb['disable_txt'] = 'ヒント: 機能を無効にするには、スコアを 0.00 に設定してください。';
+$wb['email_error_isemail'] = 'Email address is invalid. / メールアドレスが不正です。';
+$wb['email_error_unique'] = 'There is already a spamfilter record for this email address. / このアドレスのスパムフィルター設定は既に存在します。';
+$wb['spam_redirect_maildir_purge_txt'] = 'メールボックスの自動消去';
+$wb['days_txt'] = '日後';

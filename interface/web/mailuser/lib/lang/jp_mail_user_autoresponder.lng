@@ -1,0 +1,13 @@
+<?php
+$wb['mailbox_autoresponder_txt'] = '自動応答';
+$wb['autoresponder_subject'] = '自動応答: 休暇中です';
+$wb['autoresponder_text_txt'] = '本文';
+$wb['autoresponder_txt'] = '有効';
+$wb['autoresponder_start_date_txt'] = '開始日時';
+$wb['autoresponder_start_date_isfuture'] = 'Start date cannot be in the past. / 開始日時を過去に設定することはできません。';
+$wb['autoresponder_end_date_txt'] = '終了日時';
+$wb['autoresponder_end_date_isgreater'] = 'End date must be set and be later than start date. / 終了日時を設定し、かつ開始日時より後の日時にしてください。';
+$wb['autoresponder_start_date_is_required'] = 'Start date must be set when Autoresponder is enabled. / 自動応答を有効にする場合は開始日時を設定してください。';
+$wb['autoresponder_active'] = '自動応答を有効にする';
+$wb['now_txt'] = '今すぐ';
+$wb['autoresponder_subject_txt'] = '件名';

@@ -1,0 +1,10 @@
+<?php
+$wb['mailbox_cc_txt'] = 'メールコピーの送信先';
+$wb['cc_txt'] = 'コピーの送信先';
+$wb['email_txt'] = 'メールアドレス';
+$wb['cc_error_isemail'] = 'Email address invalid. / コピー送信先のアドレス形式が正しくありません。';
+$wb['email_is_cc_error'] = 'Email address and copy to address can not be the same. / 元のアドレスとコピー先のアドレスを同じにすることはできません。';
+$wb['name_optional_txt'] = '(任意)';
+$wb['cc_note_txt'] = '(複数のアドレスを登録する場合はカンマで区切ってください)';
+$wb['forward_in_lda_txt'] = '配送中にコピーを転送';
+$wb['tooltip_forward_in_lda_txt'] = 'メールボックスに届く際、どのタイミングでコピーを転送するかを制御します。';

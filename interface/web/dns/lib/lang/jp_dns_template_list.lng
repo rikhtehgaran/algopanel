@@ -1,0 +1,5 @@
+<?php
+$wb['list_head_txt'] = 'DNSウィザードテンプレート';
+$wb['visible_txt'] = '表示';
+$wb['name_txt'] = '名前';
+$wb['add_new_record_txt'] = 'テンプレートを追加';

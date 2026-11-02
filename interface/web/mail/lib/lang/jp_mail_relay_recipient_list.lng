@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'リレー配信先';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_txt'] = '宛先メールアドレス';
+$wb['recipient_txt'] = '宛先';
+$wb['add_new_record_txt'] = '配信先を追加';
+$wb['access_txt'] = 'アクセス';

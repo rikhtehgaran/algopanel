@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = '保護フォルダユーザー';
+$wb['active_txt'] = '有効';
+$wb['web_folder_id_txt'] = 'フォルダ';
+$wb['username_txt'] = 'ユーザー名';
+$wb['add_new_record_txt'] = 'ユーザーを追加';

@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = '利用可能なパッケージ';
+$wb['name_txt'] = '名前';
+$wb['version_txt'] = 'バージョン';
+$wb['category_txt'] = 'カテゴリ';
+$wb['status_txt'] = '公開状況';
+$wb['filter_txt'] = '検索';

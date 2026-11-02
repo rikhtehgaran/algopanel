@@ -1,0 +1,6 @@
+<?php
+$wb['mailbox_spamfilter_txt'] = 'スパムフィルタ';
+$wb['spamfilter_txt'] = 'スパムフィルタ';
+$wb['email_txt'] = 'メールアドレス';
+$wb['inherit_policy'] = '- ドメイン設定を継承 -';
+$wb['policy_txt'] = 'ポリシー';

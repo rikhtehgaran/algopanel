@@ -1,0 +1,15 @@
+<?php
+$wb['Directive Snippets'] = 'ディレクティブ・スニペット';
+$wb['name_txt'] = 'スニペット名';
+$wb['type_txt'] = '種類';
+$wb['snippet_txt'] = 'スニペット内容';
+$wb['active_txt'] = '有効';
+$wb['directive_snippets_name_empty'] = 'Please specify a name for the snippet. / スニペットの名前を指定してください。';
+$wb['directive_snippets_name_error_unique'] = 'There is already a directive snippet with this name. / 同名のスニペットが既に存在します。';
+$wb['variables_txt'] = '利用可能な変数';
+$wb['customer_viewable_txt'] = '顧客に表示する';
+$wb['required_php_snippets_txt'] = '必須 PHPスニペット';
+$wb['update_sites_txt'] = 'このスニペットを使用しているサイトを更新する';
+$wb['error_hide_snippet_active_sites'] = 'You cannot hide this snippet as it is currently used by existing websites. / 既存のサイトで使用中のため、このスニペットを顧客から非表示にすることはできません。';
+$wb['error_disable_snippet_active_sites'] = 'You cannot disable this snippet as it is currently used by existing websites. / 既存のサイトで使用中のため、このスニペットを無効化することはできません。';
+$wb['error_delete_snippet_active_sites'] = 'You cannot delete this snippet as it is currently used by existing websites. / 既存のサイトで使用中のため、このスニペットを削除することはできません。';

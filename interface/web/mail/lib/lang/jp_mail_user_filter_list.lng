@@ -1,0 +1,6 @@
+<?php
+$wb['rulename_txt'] = '名前';
+$wb['add_new_record_txt'] = 'フィルターを新規追加';
+$wb['page_txt'] = 'ページ';
+$wb['page_of_txt'] = '/';
+$wb['delete_confirmation'] = 'Do you really want to Delete the mailfilter? / 本当にこのメールフィルターを削除しますか？';

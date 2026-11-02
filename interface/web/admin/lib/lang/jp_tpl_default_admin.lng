@@ -1,0 +1,17 @@
+<?php
+$wb['tpl_default_admin_head_txt'] = 'グローバルデフォルト設定';
+$wb['server_id_txt'] = 'サーバー';
+$wb['client_id_txt'] = 'クライアント';
+$wb['name_txt'] = 'PHP名';
+$wb['Name'] = '名前';
+$wb['FastCGI Settings'] = 'FastCGI設定';
+$wb['PHP-FPM Settings'] = 'PHP-FPM設定';
+$wb['Additional PHP Versions'] = '追加のPHPバージョン';
+$wb['Form to edit additional PHP versions'] = '追加PHPバージョン編集フォーム';
+$wb['server_php_name_error_empty'] = '名前を入力してください。';
+$wb['php_fastcgi_binary_txt'] = 'PHP FastCGIバイナリのパス';
+$wb['php_fastcgi_ini_dir_txt'] = 'php.iniディレクトリのパス';
+$wb['php_fpm_init_script_txt'] = 'PHP-FPM起動スクリプトのパス';
+$wb['php_fpm_ini_dir_txt'] = 'php.iniディレクトリのパス';
+$wb['php_fpm_pool_dir_txt'] = 'PHP-FPMプールディレクトリのパス';
+$wb['tpl_default_admin_desc_txt'] = '';

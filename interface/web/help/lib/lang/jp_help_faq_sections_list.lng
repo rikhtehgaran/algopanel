@@ -1,0 +1,7 @@
+<?php
+$wb['faq_section_name_txt'] = 'セクション名';
+$wb['faq_delete_txt'] = '削除';
+$wb['faq_edit_txt'] = '編集';
+$wb['faq_sections_txt'] = 'セクション';
+$wb['faq_faq_sections_txt'] = 'FAQセクション';
+$wb['faq_new_section_txt'] = 'セクションを追加';

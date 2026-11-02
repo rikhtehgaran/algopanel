@@ -1,0 +1,4 @@
+<?php
+$wb['list_head_txt'] = 'サーバー設定';
+$wb['server_name_txt'] = 'サーバー';
+$wb['server_id_txt'] = 'サーバーID';

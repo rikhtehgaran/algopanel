@@ -1,0 +1,238 @@
+<?php
+
+/*
+Copyright (c) 2007, Till Brehm, projektfarm Gmbh
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+    * Neither the name of ISPConfig nor the names of its contributors
+      may be used to endorse or promote products derived from this software without
+      specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+class installer_enterpriselinux extends installer_dist {
+
+	protected $clamav_socket = '/tmp/clamd.socket';
+
+	public function configure_amavis() {
+		global $conf, $dist;
+
+		// amavisd user config file
+		$configfile = 'fedora_amavisd_conf';
+		if(!is_dir($conf["amavis"]["config_dir"])) mkdir($conf["amavis"]["config_dir"]);
+		if(is_file($conf["amavis"]["config_dir"].'/amavisd.conf')) copy($conf["amavis"]["config_dir"].'/amavisd.conf', $conf["amavis"]["config_dir"].'/amavisd.conf~');
+		if(is_file($conf["amavis"]["config_dir"].'/amavisd.conf~')) exec('chmod 400 '.$conf["amavis"]["config_dir"].'/amavisd.conf~');
+		$content = rfsel($conf['ispconfig_install_dir'].'/server/conf-custom/install/'.$configfile.'.master', "tpl/".$configfile.".master");
+		$content = str_replace('{mysql_server_ispconfig_user}', $conf['mysql']['ispconfig_user'], $content);
+		$content = str_replace('{mysql_server_ispconfig_password}', $conf['mysql']['ispconfig_password'], $content);
+		$content = str_replace('{mysql_server_database}', $conf['mysql']['database'], $content);
+		$content = str_replace('{mysql_server_port}', $conf["mysql"]["port"], $content);
+		$content = str_replace('{mysql_server_ip}', $conf['mysql']['ip'], $content);
+		$content = str_replace('{hostname}', $conf['hostname'], $content);
+		$content = str_replace('/var/spool/amavisd/clamd.sock', $this->clamav_socket, $content);
+		$content = str_replace('{amavis_config_dir}', $conf['amavis']['config_dir'], $content);
+		wf($conf["amavis"]["config_dir"].'/amavisd.conf', $content);
+		chmod($conf['amavis']['config_dir'].'/amavisd.conf', 0640);
+
+		if(!is_file($conf['amavis']['config_dir'].'/60-dkim')) {
+			touch($conf['amavis']['config_dir'].'/60-dkim');
+			chmod($conf['amavis']['config_dir'].'/60-dkim', 0640);
+		}
+
+
+		// Adding the amavisd commands to the postfix configuration
+		$postconf_commands = array (
+			'content_filter = amavis:[127.0.0.1]:10024',
+			'receive_override_options = no_address_mappings'
+		);
+
+		// Make a backup copy of the main.cf file
+		copy($conf["postfix"]["config_dir"].'/main.cf', $conf["postfix"]["config_dir"].'/main.cf~2');
+
+		// Executing the postconf commands
+		foreach($postconf_commands as $cmd) {
+			$command = "postconf -e '$cmd'";
+			caselog($command." &> /dev/null", __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
+		}
+
+		$config_dir = $conf['postfix']['config_dir'];
+
+		// Adding amavis-services to the master.cf file
+
+		// backup master.cf
+		if(is_file($config_dir.'/master.cf')) copy($config_dir.'/master.cf', $config_dir.'/master.cf~');
+
+		// first remove the old service definitions
+		$this->remove_postfix_service('amavis','unix');
+		$this->remove_postfix_service('127.0.0.1:10025','inet');
+		$this->remove_postfix_service('127.0.0.1:10027','inet');
+
+		// then add them back
+		$content = rfsel($conf['ispconfig_install_dir'].'/server/conf-custom/install/master_cf_amavis.master', 'tpl/master_cf_amavis.master');
+		af($config_dir.'/master.cf', $content);
+		unset($content);
+
+		$content = rfsel($conf['ispconfig_install_dir'].'/server/conf-custom/install/master_cf_amavis10025.master', 'tpl/master_cf_amavis10025.master');
+		af($config_dir.'/master.cf', $content);
+		unset($content);
+
+		$content = rfsel($conf['ispconfig_install_dir'].'/server/conf-custom/install/master_cf_amavis10027.master', 'tpl/master_cf_amavis10027.master');
+		af($config_dir.'/master.cf', $content);
+		unset($content);
+
+		removeLine('/etc/sysconfig/freshclam', 'FRESHCLAM_DELAY=disabled-warn   # REMOVE ME', 1);
+		replaceLine('/etc/freshclam.conf', 'Example', '# Example', 1);
+
+		// get shell-group for amavis
+		$amavis_group=exec('grep -o "^amavis:\|^vscan:" /etc/group');
+		if(!empty($amavis_group)) {
+			$amavis_group=rtrim($amavis_group, ":");
+		}
+		// get shell-user for amavis
+		$amavis_user=exec('grep -o "^amavis:\|^vscan:" /etc/passwd');
+		if(!empty($amavis_user)) {
+			$amavis_user=rtrim($amavis_user, ":");
+		}
+
+		// Create the director for DKIM-Keys
+		if(!is_dir('/var/lib/amavis')) mkdir('/var/lib/amavis', 0750, true);
+		if(!empty($amavis_user)) exec('chown '.$amavis_user.' /var/lib/amavis');
+		if(!empty($amavis_group)) exec('chgrp '.$amavis_group.' /var/lib/amavis');
+		if(!is_dir('/var/lib/amavis/dkim')) mkdir('/var/lib/amavis/dkim', 0750);
+		if(!empty($amavis_user)) exec('chown -R '.$amavis_user.' /var/lib/amavis/dkim');
+		if(!empty($amavis_group)) exec('chgrp -R '.$amavis_group.' /var/lib/amavis/dkim');
+
+
+	}
+
+	public function install_ispconfig() {
+		parent::install_ispconfig();
+
+		// Set SELinux contexts for ISPConfig directories
+		$this->set_selinux_contexts();
+
+		// Configure systemd httpd hardening workaround for ISPConfig
+		$this->configure_httpd_systemd_override();
+	}
+
+	public function configure_httpd_systemd_override() {
+		global $conf;
+
+		// Only apply if Apache is installed and systemd is in use
+		if($conf['apache']['installed'] == false) return;
+		if(!is_executable('/bin/systemctl') && !is_executable('/usr/bin/systemctl')) return;
+
+		// Check if httpd.service has ProtectSystem enabled
+		$protect_system = @exec('systemctl show httpd -p ProtectSystem --value 2>/dev/null');
+		if(empty($protect_system) || $protect_system == 'no' || $protect_system == 'false') {
+			return;
+		}
+
+		$install_dir = $conf['ispconfig_install_dir'];
+		$dropin_dir = '/etc/systemd/system/httpd.service.d';
+		$dropin_file = $dropin_dir.'/ispconfig.conf';
+
+		// Create drop-in directory if it doesn't exist
+		if(!is_dir($dropin_dir)) {
+			mkdir($dropin_dir, 0755, true);
+		}
+
+		// Directories that Apache needs write access to under /usr/local/ispconfig
+		$writable_paths = array(
+			$install_dir.'/interface/temp',
+			$install_dir.'/interface/web/temp',
+			$install_dir.'/interface/cache'
+		);
+
+		// Filter to only existing directories
+		$existing_paths = array();
+		foreach($writable_paths as $path) {
+			if(is_dir($path)) {
+				$existing_paths[] = $path;
+			}
+		}
+
+		if(count($existing_paths) == 0) {
+			return;
+		}
+
+		swriteln('Configuring systemd httpd override for ISPConfig writable directories...');
+
+		// Build the drop-in configuration content
+		$content = "[Service]\n";
+		foreach($existing_paths as $path) {
+			$content .= "ReadWritePaths=".$path."\n";
+		}
+
+		// Write the drop-in file
+		wf($dropin_file, $content);
+		chmod($dropin_file, 0644);
+
+		// Reload systemd to apply changes
+		$command = 'systemctl daemon-reload';
+		caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
+	}
+
+	public function set_selinux_contexts() {
+		global $conf;
+
+		$install_dir = $conf['ispconfig_install_dir'];
+
+		// Check if SELinux is installed and enforcing
+		$selinux_status = @exec('getenforce 2>/dev/null');
+		if($selinux_status != 'Enforcing' && $selinux_status != 'Permissive') {
+			return;
+		}
+
+		// Check if required SELinux tools are available
+		if(!is_executable('/usr/sbin/semanage') && !is_executable('/sbin/semanage')) {
+			swriteln('SELinux is enabled but semanage tool is not available. Please install policycoreutils-python-utils package.');
+			return;
+		}
+
+		swriteln('Configuring SELinux contexts for ISPConfig...');
+
+		// Directories that need httpd write access
+		$writable_dirs = array(
+			$install_dir.'/interface/temp',
+			$install_dir.'/interface/web/temp'
+		);
+
+		foreach($writable_dirs as $dir) {
+			if(is_dir($dir)) {
+				// Set the context immediately
+				$command = 'chcon -R -t httpd_sys_rw_content_t '.escapeshellarg($dir);
+				caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
+
+				// Make the context persistent across relabels
+				$command = 'semanage fcontext -a -t httpd_sys_rw_content_t '.escapeshellarg($dir.'(/.*)?').' 2>/dev/null || semanage fcontext -m -t httpd_sys_rw_content_t '.escapeshellarg($dir.'(/.*)?');
+				caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
+
+				// Apply the persistent context
+				$command = 'restorecon -Rv '.escapeshellarg($dir);
+				caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
+			}
+		}
+	}
+
+}
+
+?>

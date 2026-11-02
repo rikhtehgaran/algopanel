@@ -1,0 +1,15 @@
+<?php
+$wb['head_txt'] = '仮想サーバー操作 (VM):';
+$wb['start_txt'] = '仮想サーバーを開始';
+$wb['stop_txt'] = '仮想サーバーを停止';
+$wb['restart_txt'] = '仮想サーバーを再起動';
+$wb['ostemplate_txt'] = 'OSテンプレートを作成';
+$wb['ostemplate_desc_txt'] = '(例: debian-6.0-i386-custom)';
+$wb['btn_save_txt'] = '選択したアクションを実行';
+$wb['btn_cancel_txt'] = 'キャンセル';
+$wb['start_exec_txt'] = 'Start command has been sent to the VM host server. It may take a minute until the VM is started. / 開始コマンドを送信しました。起動までしばらくお待ちください。';
+$wb['stop_exec_txt'] = 'Stop command has been sent to the VM host server. It may take a minute until the VM is stopped. / 停止コマンドを送信しました。停止までしばらくお待ちください。';
+$wb['restart_exec_txt'] = 'Restart command has been sent to the VM host server. It may take a minute until the VM is restarted. / 再起動コマンドを送信しました。再起動までしばらくお待ちください。';
+$wb['ostemplate_name_error'] = 'The OSTemplate name conatains unallowed characters. / OSテンプレート名に不正な文字が含まれています。';
+$wb['ostemplate_name_unique_error'] = 'There is already an OSTemplate with that name. / その名称のOSテンプレートは既に存在します。';
+$wb['ostemplate_exec_txt'] = 'The command to create a OSTemplate has been sent to the host server. It will take several minutes until the OSTemplate has been created. / OSテンプレート作成コマンドを送信しました。完了まで数分かかります。';

@@ -1,0 +1,17 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'IPv6アドレス';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'The max. number of DNS records for your account is reached. / DNSレコードの作成上限に達しました。';
+$wb['no_zone_perm'] = 'You do not have the permission to add a record to this DNS zone. / このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'The hostname is empty. / ホスト名を入力してください。';
+$wb['name_error_regex'] = 'The hostname has the wrong format. / ホスト名の形式が正しくありません。';
+$wb['data_error_empty'] = 'IP-Address empty / IPv6アドレスを入力してください。';
+$wb['data_error_duplicate'] = 'Duplicate AAAA, ALIAS or CNAME record / AAAA, ALIAS, または CNAME レコードが重複しています。';
+$wb['ip_error_wrong'] = 'IP-Address format invalid / IPv6アドレスの形式が不正です。';
+$wb['cname_conflict_txt'] = 'CNAME conflict / 同一ホスト名にCNAMEレコードが既に存在します（共存不可）。';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds. / TTLの最小値は60秒です。';

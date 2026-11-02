@@ -1,0 +1,22 @@
+<?php
+$wb['mailinglist_txt'] = 'メーリングリスト';
+$wb['limit_mailmailinglist_txt'] = 'Limit reached / 作成上限に達しました';
+$wb['domain_error_empty'] = 'Domain is empty. / ドメインが選択されていません。';
+$wb['listname_error_empty'] = 'Listname is empty. / リスト名を入力してください。';
+$wb['listname_error_regex'] = 'Invalid list name. / リスト名が不正です。2文字以上で入力してください（使用可能文字: a-z, 1-9, -, _）。';
+$wb['domain_error_regex'] = 'Invalid domain name. / ドメイン名が不正です。';
+$wb['email_in_use_txt'] = 'Email is in use / このメールアドレスは既に登録されています';
+$wb['no_domain_perm'] = 'You have no permission for this domain. / このドメインの権限がありません。';
+$wb['password_strength_txt'] = 'パスワード強度';
+$wb['server_id_txt'] = 'サーバー';
+$wb['domain_txt'] = 'ドメイン';
+$wb['listname_txt'] = 'リスト名';
+$wb['client_txt'] = 'クライアント';
+$wb['email_txt'] = 'メールアドレス';
+$wb['password_txt'] = 'パスワード';
+$wb['generate_password_txt'] = 'パスワード生成';
+$wb['repeat_password_txt'] = 'パスワード再入力';
+$wb['password_mismatch_txt'] = 'The passwords do not match. / パスワードが一致しません。';
+$wb['password_match_txt'] = 'The passwords do match. / パスワードが一致しました。';
+$wb['listname_error_unique'] = 'Mailinglist already exists. / このリスト名は既にサーバー上に存在します。別の名前を指定してください。';
+$wb['email_error_isemail'] = 'Email address is invalid. / メールアドレスの形式が正しくありません。';

@@ -1,0 +1,6 @@
+<?php
+$wb['head_txt'] = 'vpopmail からメール設定をインポート';
+$wb['legend_txt'] = '接続先データベースサーバーの詳細設定';
+$wb['btn_start_txt'] = 'インポート開始';
+$wb['btn_connect_txt'] = 'リモートサーバーに接続';
+$wb['btn_cancel_txt'] = 'キャンセル';

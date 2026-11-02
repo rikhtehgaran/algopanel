@@ -1,0 +1,12 @@
+<?php
+$wb['server_ip_edit_title'] = 'IPアドレス';
+$wb['server_ip_edit_desc'] = 'システムIPアドレスの編集フォーム';
+$wb['server_id_txt'] = 'サーバー';
+$wb['client_id_txt'] = 'クライアント';
+$wb['ip_type_txt'] = '種類';
+$wb['ip_address_txt'] = 'IPアドレス';
+$wb['virtualhost_txt'] = 'HTTP NameVirtualHost';
+$wb['virtualhost_port_txt'] = 'HTTPポート';
+$wb['ip_error_wrong'] = 'The IP address is invalid / IPアドレスが不正です。';
+$wb['ip_error_unique'] = 'The IP address must be unique / このIPアドレスは既に登録されています。';
+$wb['error_port_syntax'] = 'Invalid chars in port field / ポート番号に不正な文字が含まれています。カンマ区切りの数字で入力してください（例: 80,443）。';

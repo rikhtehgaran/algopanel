@@ -1,0 +1,4 @@
+<?php
+$wb['list_head_txt'] = '仮想サーバーテンプレート一覧';
+$wb['active_txt'] = '有効';
+$wb['template_name_txt'] = 'テンプレート名';

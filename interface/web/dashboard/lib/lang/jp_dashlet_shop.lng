@@ -1,0 +1,7 @@
+<?php
+$wb['shop_txt'] = 'お申し込み';
+$wb['name_txt'] = 'プラン名';
+$wb['price_txt'] = '価格';
+$wb['setup_fee_txt'] = '初期費用';
+$wb['no_products_txt'] = 'プランが見つかりません。';
+$wb['order_txt'] = '申し込む';

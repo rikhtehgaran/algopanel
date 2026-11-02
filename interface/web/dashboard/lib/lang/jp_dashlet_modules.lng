@@ -1,0 +1,3 @@
+<?php
+$wb['available_modules_txt'] = '利用可能モジュール';
+$wb['go_to_txt'] = '移動';

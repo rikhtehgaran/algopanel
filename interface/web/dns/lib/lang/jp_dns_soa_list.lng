@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'DNSゾーン';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['origin_txt'] = 'ゾーン';
+$wb['ns_txt'] = 'NS';
+$wb['mbox_txt'] = 'メールアドレス';
+$wb['add_new_record_wizard_txt'] = 'ウィザードでゾーン作成';
+$wb['add_new_record_txt'] = '手動でゾーン作成';
+$wb['import_zone_file_txt'] = 'ゾーンファイルをインポート';

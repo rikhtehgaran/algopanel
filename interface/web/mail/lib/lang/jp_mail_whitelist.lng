@@ -1,0 +1,12 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['source_txt'] = 'ホワイトリスト・アドレス';
+$wb['recipient_txt'] = '宛先';
+$wb['active_txt'] = '有効';
+$wb['source_error_notempty'] = 'Address is empty. / アドレスを入力してください。';
+$wb['type_txt'] = '種類';
+$wb['limit_mailfilter_txt'] = 'The max. number of email filters for your account is reached. / メールフィルターの最大数に達しました。';
+$wb['limit_mail_wblist_txt'] = 'The max. number of email white / blacklist for your account is reached. / ホワイト・ブラックリストの最大数に達しました。';
+$wb['mail_access_unique'] = 'Whitelist Address already in use. / このホワイトリスト・アドレスは既に登録されています。';
+$wb['client_txt'] = 'クライアント';
+$wb['sender_txt'] = '送信者';

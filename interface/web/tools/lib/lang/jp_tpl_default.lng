@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'デフォルトテーマの設定';
+$wb['list_desc_txt'] = 'デフォルトテーマ固有のオプションを変更します';
+$wb['no_settings_txt'] = 'デフォルトテーマの設定項目はありません。';
+$wb['btn_start_txt'] = '保存';
+$wb['btn_cancel_txt'] = '戻る';

@@ -1,0 +1,12 @@
+<?php
+$wb['list_head_txt'] = 'メールボックス';
+$wb['email_txt'] = 'メールアドレス';
+$wb['autoresponder_txt'] = '自動応答';
+$wb['add_new_record_txt'] = 'メールボックスを新規作成';
+$wb['name_txt'] = '氏名';
+$wb['login_txt'] = 'ログイン名';
+$wb['postfix_txt'] = '受信機能';
+$wb['disablesmtp_txt'] = 'SMTP (送信)';
+$wb['disabledeliver_txt'] = '受信箱 (INBOX)';
+$wb['disableimap_txt'] = 'IMAP';
+$wb['disablepop3_txt'] = 'POP3';

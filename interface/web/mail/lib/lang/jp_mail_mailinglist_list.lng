@@ -1,0 +1,4 @@
+<?php
+$wb['list_head_txt'] = 'メーリングリスト';
+$wb['domain_txt'] = 'ドメイン';
+$wb['listname_txt'] = 'リスト名';

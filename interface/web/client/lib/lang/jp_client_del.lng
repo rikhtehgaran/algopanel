@@ -1,0 +1,9 @@
+<?php
+$wb['confirm_action_txt'] = '操作の確認';
+$wb['delete_explanation'] = 'This action will delete the following number of records associated with this client / この操作により、このクライアントに関連付けられた以下のレコードがすべて削除されます。';
+$wb['btn_save_txt'] = 'クライアントを削除';
+$wb['btn_cancel_txt'] = '削除せずにキャンセル';
+$wb['confirm_client_delete_txt'] = 'Are you sure you want to delete this client? / 本当にこのクライアントを削除しますか？';
+$wb['list_head_txt'] = 'クライアントの削除';
+$wb['table_txt'] = 'テーブル名';
+$wb['data_txt'] = '件数';

@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'ファイアウォール';
+$wb['active_txt'] = '有効';
+$wb['server_id_txt'] = 'サーバー';
+$wb['tcp_port_txt'] = '開放TCPポート';
+$wb['udp_port_txt'] = '開放UDPポート';
+$wb['add_new_record_txt'] = 'ファイアウォール設定を追加';
