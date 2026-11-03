@@ -149,9 +149,9 @@ $conf['db_log_message_max_length'] = 32768;
 $conf['admin_ip_whitelist_file'] = '/usr/local/ispconfig/security/admin_ip.whitelist';
 
 //** Themes
-$conf['theme'] = 'default';
+$conf['theme'] = 'algopanel';
 $conf['html_content_encoding'] = 'utf-8'; // example: utf-8, iso-8859-1, ...
-$conf['logo'] = 'themes/default/images/header_logo.png';
+$conf['logo'] = 'themes/algopanel/assets/images/logo.png';
 
 
 //** Default Language and Timezone

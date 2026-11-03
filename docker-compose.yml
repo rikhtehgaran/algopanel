@@ -32,7 +32,7 @@ services:
     container_name: algopanel-nginx
     restart: unless-stopped
     ports:
-      - "8088:80"
+      - "8090:80"
     volumes:
       - .:/usr/local/ispconfig:ro
       - ./.docker/nginx.conf:/etc/nginx/conf.d/default.conf:ro
