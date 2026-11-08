@@ -149,9 +149,13 @@ $conf['db_log_message_max_length'] = 32768;
 $conf['admin_ip_whitelist_file'] = '/usr/local/ispconfig/security/admin_ip.whitelist';
 
 //** Themes
+////////////////////  Algo4Stock  ////////////////////
+/// [ 2026-11-08 ⏰ 10:05 ]
+/// [Developer: Danial Rikhteh Garan]
 $conf['theme'] = 'algopanel';
 $conf['html_content_encoding'] = 'utf-8'; // example: utf-8, iso-8859-1, ...
 $conf['logo'] = 'themes/algopanel/assets/images/logo.png';
+//-------------------  Algo4Stock  -------------------//
 
 
 //** Default Language and Timezone

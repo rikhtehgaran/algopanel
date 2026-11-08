@@ -1,4 +1,6 @@
 .idea
+SYSTEM_PROMPT.md
+installer
 /nbproject/private/
 .phplint-cache
 
@@ -67,7 +69,5 @@ Temporary Items
 /install/existing_db.sql
 
 sync_config.jsonc
-# Installer build artifacts
-installer/UPLOAD_TO_SUBDOMAIN/
-installer/dist/
-installer/algopanel-ai/
+# Installer directory and build artifacts
+installer/

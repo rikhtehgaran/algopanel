@@ -192,7 +192,11 @@ $conf['language'] = $inst->simple_query('Select language', array('en', 'de'), 'e
 $conf['timezone'] = get_system_timezone();
 
 //* Set default theme
-$conf['theme'] = 'default';
+####################  Algo4Stock  ####################
+### [ 2026-11-08 ⏰ 10:05 ]
+### [Developer: Danial Rikhteh Garan]
+$conf['theme'] = 'algopanel';
+#-------------------  Algo4Stock  -------------------#
 $conf['language_file_import_enabled'] = false;
 
 //** Select installation mode

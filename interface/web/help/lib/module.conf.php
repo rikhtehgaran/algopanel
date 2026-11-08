@@ -103,8 +103,12 @@ if($_SESSION['s']['user']['typ'] == 'admin') {
 
 
 	//* Add the menu items defined above to a menu section labeled 'Support'
+	////////////////////  Algo4Stock  ////////////////////
+	/// [ 2026-11-08 ⏰ 10:05 ]
+	/// [Developer: Danial Rikhteh Garan]
 	$module['nav'][] = array( 'title' => 'About AlgoPanel',
 		'open'  => 1,
 		'items' => $items);
+	//-------------------  Algo4Stock  -------------------//
 }
 
