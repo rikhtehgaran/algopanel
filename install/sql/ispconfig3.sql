@@ -2586,10 +2586,10 @@ INSERT INTO `sys_ini` (`sysini_id`, `config`, `default_logo`, `custom_logo`) VAL
 --
 
 ####################  Algo4Stock  ####################
-### [ 2026-11-08 ⏰ 10:05 ]
+### [ 1405-08-17 ⏰ 10:05 ]
 ### [Developer: Danial Rikhteh Garan]
 INSERT INTO `sys_theme` (`var_id`, `tpl_name`, `username`, `logo_url`) VALUES (NULL, 'algopanel', 'global', 'themes/algopanel/assets/images/logo.png');
-#-------------------  Algo4Stock  -------------------#
+#--------------------  AlgoEnd  ---------------------#
 INSERT INTO `sys_theme` (`var_id`, `tpl_name`, `username`, `logo_url`) VALUES (NULL, 'default', 'global', 'themes/default/images/header_logo.png');
 INSERT INTO `sys_theme` (`var_id`, `tpl_name`, `username`, `logo_url`) VALUES (NULL, 'default-v2', 'global', 'themes/default-v2/images/header_logo.png');
 
@@ -2600,10 +2600,10 @@ INSERT INTO `sys_theme` (`var_id`, `tpl_name`, `username`, `logo_url`) VALUES (N
 --
 
 ####################  Algo4Stock  ####################
-### [ 2026-11-08 ⏰ 10:05 ]
+### [ 1405-08-17 ⏰ 10:05 ]
 ### [Developer: Danial Rikhteh Garan]
 INSERT INTO `sys_user` (`userid`, `sys_userid`, `sys_groupid`, `sys_perm_user`, `sys_perm_group`, `sys_perm_other`, `username`, `passwort`, `modules`, `startmodule`, `app_theme`, `typ`, `active`, `language`, `groups`, `default_group`, `client_id`) VALUES (1, 1, 0, 'riud', 'riud', '', 'admin', 'xxx', 'dashboard,admin,client,mail,monitor,sites,dns,vm,tools,help', 'dashboard', 'algopanel', 'admin', 1, 'en', '1,2', 1, 0);
-#-------------------  Algo4Stock  -------------------#
+#--------------------  AlgoEnd  ---------------------#
 
 -- --------------------------------------------------------
 

@@ -58,7 +58,11 @@ $svn_revision = '$Revision$';
 $revision = str_replace(array('Revision:','$',' '), '', $svn_revision);
 
 //** Application
-define('ISPC_APP_TITLE', 'ISPConfig');
+####################  Algo4Stock  ####################
+### [ 1405-08-17 ⏰ 22:42 ]
+### [Developer: Danial Rikhteh Garan]
+define('ISPC_APP_TITLE', 'AlgoPanel');
+#--------------------  AlgoEnd  ---------------------#
 define('ISPC_APP_VERSION', '3.3dev');
 define('DEVSYSTEM', false);
 
@@ -121,7 +125,11 @@ define('CLASSES_ROOT',INCLUDE_ROOT.FS_DIV.'classes');
 //** Server
 $conf['app_title'] = ISPC_APP_TITLE;
 $conf['app_version'] = ISPC_APP_VERSION;
-$conf['app_link'] = 'https://www.ispconfig.org/';
+####################  Algo4Stock  ####################
+### [ 1405-08-17 ⏰ 22:42 ]
+### [Developer: Danial Rikhteh Garan]
+$conf['app_link'] = 'https://algopanel.ir/';
+#--------------------  AlgoEnd  ---------------------#
 $conf['modules_available'] = 'dashboard,admin,mail,sites,monitor,client,dns,help';
 $conf['server_id'] = '{server_id}';
 $conf['init_scripts'] = '/etc/init.d';
@@ -152,10 +160,10 @@ $conf['admin_ip_whitelist_file'] = '/usr/local/ispconfig/security/admin_ip.white
 $conf['theme'] = '{theme}';
 $conf['html_content_encoding'] = 'utf-8'; // example: utf-8, iso-8859-1, ...
 ####################  Algo4Stock  ####################
-### [ 2026-11-08 ⏰ 10:05 ]
+### [ 1405-08-17 ⏰ 10:05 ]
 ### [Developer: Danial Rikhteh Garan]
 $conf['logo'] = 'themes/algopanel/assets/images/logo.png';
-#-------------------  Algo4Stock  -------------------#
+#--------------------  AlgoEnd  ---------------------#
 
 
 //** Default Language and Timezone

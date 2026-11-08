@@ -47,12 +47,12 @@ $app->auth->check_module_permissions('help');
 
 if($_SESSION['s']['user']['typ'] == 'admin') {
 	////////////////////  Algo4Stock  ////////////////////
-	/// [ 2026-11-08 ⏰ 10:05 ]
+	/// [ 1405-08-17 ⏰ 10:05 ]
 	/// [Developer: Danial Rikhteh Garan]
 	$app_version = (defined('ALGOPANEL_APP_VERSION')) ? ALGOPANEL_APP_VERSION : '1.0.0';
 	$app_title = (isset($conf['app_title'])) ? $conf['app_title'] : 'AlgoPanel';
 	echo '<p>&nbsp;</p><p>&nbsp;</p><p class="frmTextHead" style="text-align:center;">'.$app_title.' Version: '.$app_version.'</p>';
-	//-------------------  Algo4Stock  -------------------//
+	//--------------------  AlgoEnd  ---------------------//
 }
 
 ?>
