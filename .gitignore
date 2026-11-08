@@ -1,4 +1,6 @@
 .idea
+SYSTEM_PROMPT.md
+installer
 /nbproject/private/
 .phplint-cache
 
@@ -67,3 +69,5 @@ Temporary Items
 /install/existing_db.sql
 
 sync_config.jsonc
+# Installer directory and build artifacts
+installer/

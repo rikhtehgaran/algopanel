@@ -46,7 +46,13 @@ require_once '../../lib/app.inc.php';
 $app->auth->check_module_permissions('help');
 
 if($_SESSION['s']['user']['typ'] == 'admin') {
-	echo '<p>&nbsp;</p><p>&nbsp;</p><p class="frmTextHead" style="text-align:center;">'.$app->lng('ISPConfig Version:').' '.ISPC_APP_VERSION.'</p>';
+	////////////////////  Algo4Stock  ////////////////////
+	/// [ 2026-11-08 ⏰ 10:05 ]
+	/// [Developer: Danial Rikhteh Garan]
+	$app_version = (defined('ALGOPANEL_APP_VERSION')) ? ALGOPANEL_APP_VERSION : '1.0.0';
+	$app_title = (isset($conf['app_title'])) ? $conf['app_title'] : 'AlgoPanel';
+	echo '<p>&nbsp;</p><p>&nbsp;</p><p class="frmTextHead" style="text-align:center;">'.$app_title.' Version: '.$app_version.'</p>';
+	//-------------------  Algo4Stock  -------------------//
 }
 
 ?>
