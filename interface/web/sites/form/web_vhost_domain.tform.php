@@ -226,7 +226,7 @@ $form["tabs"]['domain'] = array (
 		'errordocs' => array (
 			'datatype' => 'INTEGER',
 			'formtype' => 'CHECKBOX',
-			'default' => '0',
+			'default' => '1',
 			'value'  => array(0 => '0', 1 => '1')
 		),
 		'subdomain' => array (

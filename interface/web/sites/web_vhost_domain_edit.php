@@ -208,6 +208,9 @@ class page_action extends tform_actions {
 			//* Fill the IPv4 select field with the IP addresses that are allowed for this client on the current server
 			$sql = "SELECT ip_address FROM server_ip WHERE server_id = ? AND ip_type = 'IPv4' AND virtualhost = 'y' AND (client_id = 0 OR client_id=".$_SESSION['s']['user']['client_id'].")";
 			$ips = $app->db->queryAllRecords($sql, $server_id);
+			if(empty($this->dataRecord["ip_address"]) && !empty($ips)) {
+				$this->dataRecord["ip_address"] = $ips[0]["ip_address"];
+			}
 			$ip_select = ($web_config[$server_id]['enable_ip_wildcard'] == 'y')?"<option value='*'>*</option>":"";
 			//if(!in_array($this->dataRecord["ip_address"], $ips)) $ip_select .= "<option value='".$this->dataRecord["ip_address"]."' SELECTED>".$this->dataRecord["ip_address"]."</option>\r\n";
 			//$ip_select = "";
@@ -513,6 +516,9 @@ class page_action extends tform_actions {
 			//* Fill the IPv4 select field
 			$sql = "SELECT ip_address FROM server_ip WHERE ip_type = 'IPv4' AND virtualhost = 'y' AND server_id = ?";
 			$ips = $app->db->queryAllRecords($sql, $server_id);
+			if(empty($this->dataRecord["ip_address"]) && !empty($ips)) {
+				$this->dataRecord["ip_address"] = $ips[0]["ip_address"];
+			}
 			$ip_select = ($web_config['enable_ip_wildcard'] == 'y')?"<option value='*'>*</option>":"";
 			//$ip_select = "";
 			if(is_array($ips)) {

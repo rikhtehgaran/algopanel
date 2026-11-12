@@ -98,7 +98,7 @@ $form["tabs"]['services'] = array (
 		'file_server' => array (
 			'datatype' => 'INTEGER',
 			'formtype' => 'CHECKBOX',
-			'default' => '0',
+			'default' => '1',
 			'value'  => array(0 => 0, 1 => 1)
 		),
 		'db_server' => array (

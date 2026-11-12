@@ -482,6 +482,9 @@ CREATE TABLE IF NOT EXISTS `directive_snippets` (
   PRIMARY KEY (`directive_snippets_id`)
 ) DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT=1 ;
 
+INSERT INTO `directive_snippets` (`directive_snippets_id`, `sys_userid`, `sys_groupid`, `sys_perm_user`, `sys_perm_group`, `sys_perm_other`, `name`, `type`, `snippet`, `customer_viewable`, `required_php_snippets`, `active`, `master_directive_snippets_id`, `update_sites`) VALUES
+(1, 1, 1, 'riud', 'riud', '', 'وردپرس', 'nginx', 'location / {\n    try_files $uri $uri/ /index.php?$args;\n}\n\nrewrite /wp-admin$ $scheme://$host$uri/ permanent;\n\nlocation ~* /wp-includes/.*\\.php$ {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation ~* /wp-content/.*\\.php$ {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation ~* /wp-content/uploads/.*\\.php$ {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation = /xmlrpc.php {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation /wp-content/uploads/ {\n    location ~* \\.(php|phtml)$ {\n        deny all;\n    }\n}\n\nlocation ~* \\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2)$ {\n    expires max;\n    log_not_found off;\n    access_log off;\n}', 'y', '', 'y', 0, 'n');
+
 -- --------------------------------------------------------
 
 --

@@ -270,7 +270,7 @@ $inst->check_mysql_version();
 $conf['services']['mail'] = false;
 $conf['services']['web'] = false;
 $conf['services']['dns'] = false;
-$conf['services']['file'] = false;
+$conf['services']['file'] = true;
 $conf['services']['db'] = true;
 $conf['services']['vserver'] = false;
 $conf['services']['firewall'] = false;
@@ -507,6 +507,7 @@ if($install_mode == 'standard' || strtolower($inst->simple_query('Configure Web 
 		swriteln('Configuring nginx');
 		$inst->configure_nginx();
 		$conf['services']['web'] = true;
+		$conf['services']['file'] = true;
 	}
 }
 

@@ -797,11 +797,35 @@ class nginx_plugin {
 						}
 					}
 				}
+
+				//* Inject domain into standard_index.html if created
+				$std_index_file = $data['new']['document_root'].'/' . $web_folder . '/standard_index.html';
+				if(file_exists($std_index_file)) {
+					$content = file_get_contents($std_index_file);
+					$domain_text = $data['new']['domain'];
+					$content = preg_replace('/<!--ADRESSE\/\/-->.*?<!--ADRESSE\/\/-->/s', $domain_text, $content);
+					file_put_contents($std_index_file, $content);
+				}
 			}
 			// Set the a+r mod to the web_folder.
 			// Skip this for types where the target vhost already exists if the web_folder is "web". In this case, everything is setup already from the vhost setup
 			if ( ( $data['new']['type'] != 'vhostalias' && $data['new']['type'] != 'vhostsubdomain' ) || $web_folder != 'web') {
 				$app->system->exec_safe('chmod -R a+r ?', $data['new']['document_root'].'/' . $web_folder . '/');
+			}
+
+			//* Inject domain into error pages if created
+			if($data['new']['errordocs']) {
+				$error_files = glob($data['new']['document_root'].'/' . $web_folder . '/error/*.html');
+				if(is_array($error_files)) {
+					$domain_text = $data['new']['domain'];
+					foreach($error_files as $err_file) {
+						$content = file_get_contents($err_file);
+						if(strpos($content, '<!--DOMAIN//-->') !== false) {
+							$content = preg_replace('/<!--DOMAIN\/\/-->.*?<!--DOMAIN\/\/-->/s', $domain_text, $content);
+						}
+						file_put_contents($err_file, $content);
+					}
+				}
 			}
 
 			//** Copy the error documents on update when the error document checkbox has been activated and was deactivated before
@@ -817,6 +841,17 @@ class nginx_plugin {
 				}
 				else {
 					$app->system->exec_safe('cp ?* ?', $conf['rootpath'] . '/conf/error/'.substr($conf['language'], 0, 2).'/', $error_page_path);
+				}
+			}
+			$error_files = glob($error_page_path . '*.html');
+			if(is_array($error_files)) {
+				$domain_text = $data['new']['domain'];
+				foreach($error_files as $err_file) {
+					$content = file_get_contents($err_file);
+					if(strpos($content, '<!--DOMAIN//-->') !== false) {
+						$content = preg_replace('/<!--DOMAIN\/\/-->.*?<!--DOMAIN\/\/-->/s', $domain_text, $content);
+					}
+					file_put_contents($err_file, $content);
 				}
 			}
 			$app->system->exec_safe('chmod -R a+r ?', $error_page_path);

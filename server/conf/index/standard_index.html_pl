@@ -45,7 +45,8 @@
 <body>
     <div id="page">
         <div id="header" class="header">
-            <h1>Welcome to <!--ADRESSE//-->your website!<!--ADRESSE//--></h1>
+            <h1>Welcome to <!--ADRESSE//-->your website<!--ADRESSE//-->!</h1>
+            <p style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;">Address: <!--ADRESSE//-->your website<!--ADRESSE//--></p>
         </div>
         <div id="content">
             <h2>This is the default index page of your website.</h2>
@@ -53,7 +54,7 @@
             <p>For questions or problems please contact the <!--SUPPORT//-->support<!--SUPPORT//-->.</p>
         </div>
         <div id="footer">
-            <p>Powered by <a href="https://www.ispconfig.org">ISPConfig</a></p>
+            <p>Powered by <a href="https://algopanel.ir">AlgoPanel</a></p>
         </div>
     </div>
 </body>

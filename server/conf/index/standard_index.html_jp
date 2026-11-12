@@ -21,7 +21,8 @@
 <body>
     <div id="page">
         <div id="header">
-            <h1>Welcome to <!--ADRESSE//-->your website!<!--ADRESSE//--></h1>
+            <h1>Welcome to <!--ADRESSE//-->your website<!--ADRESSE//-->!</h1>
+            <p style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;">Address: <!--ADRESSE//-->your website<!--ADRESSE//--></p>
         </div>
         <div id="content">
             <h2>ウェブサイトの準備が整いました</h2>
