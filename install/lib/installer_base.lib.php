@@ -443,10 +443,10 @@ class installer_base extends stdClass {
 			$this->db->query("UPDATE sys_ini SET config = ? WHERE sysini_id = 1", $system_ini);
 
 			//* Ensure default WordPress snippet exists
-			$wp_check = $this->db->queryOneRecord("SELECT directive_snippets_id FROM directive_snippets WHERE name = 'وردپرس'");
+			$wp_check = $this->db->queryOneRecord("SELECT directive_snippets_id FROM directive_snippets WHERE name = 'Wordpress' OR name = 'وردپرس'");
 			if(!$wp_check) {
 				$wp_snippet = "location / {\n    try_files \$uri \$uri/ /index.php?\$args;\n}\n\nrewrite /wp-admin$ \$scheme://\$host\$uri/ permanent;\n\nlocation ~* /wp-includes/.*\\.php$ {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation ~* /wp-content/.*\\.php$ {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation ~* /wp-content/uploads/.*\\.php$ {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation = /xmlrpc.php {\n    deny all;\n    access_log off;\n    log_not_found off;\n}\n\nlocation /wp-content/uploads/ {\n    location ~* \\.(php|phtml)$ {\n        deny all;\n    }\n}\n\nlocation ~* \\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2)$ {\n    expires max;\n    log_not_found off;\n    access_log off;\n}";
-				$this->db->query("INSERT INTO directive_snippets (sys_userid, sys_groupid, sys_perm_user, sys_perm_group, sys_perm_other, name, type, snippet, customer_viewable, required_php_snippets, active, master_directive_snippets_id, update_sites) VALUES (1, 1, 'riud', 'riud', '', 'وردپرس', 'nginx', ?, 'y', '', 'y', 0, 'n')", $wp_snippet);
+				$this->db->query("INSERT INTO directive_snippets (sys_userid, sys_groupid, sys_perm_user, sys_perm_group, sys_perm_other, name, type, snippet, customer_viewable, required_php_snippets, active, master_directive_snippets_id, update_sites) VALUES (1, 1, 'riud', 'riud', '', 'Wordpress', 'nginx', ?, 'y', '', 'y', 0, 'n')", $wp_snippet);
 			}
 
 		}
