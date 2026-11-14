@@ -20,11 +20,11 @@ enable_welcome_mail=y
 [monitor]
 
 [sites]
-dbname_prefix=c[CLIENTID]
-dbuser_prefix=c[CLIENTID]
-ftpuser_prefix=[CLIENTNAME]
-shelluser_prefix=[CLIENTNAME]
-webdavuser_prefix=[CLIENTNAME]
+dbname_prefix=C[CLIENTID]_db_
+dbuser_prefix=C[CLIENTID]_user_
+ftpuser_prefix=C[CLIENTID]_ftp_
+shelluser_prefix=C[CLIENTID]_ssh_
+webdavuser_prefix=C[CLIENTID]_webdav_
 dblist_phpmyadmin_link=y
 phpmyadmin_url=https://[SERVERNAME]:8081/phpmyadmin
 webftp_url=

@@ -1,32 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
-<head>
-    <title>403 Forbidden</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="robots" content="noindex" />
-    <style type="text/css"><!--
-    body { color: #444; background-color: #EEEEEE; font-family: sans-serif; font-size: 90%; }
-    #page{ background-color: #FFFFFF; width: 70%; max-width: 700px; margin: 40px auto; padding: 30px 30px 0 30px; border: 1px solid #DDD; border-radius: 4px; overflow: hidden; }
-    #header { padding: 15px; text-align: center; background-color: #C55042; color: #FFFFFF; margin: -30px -30px 25px -30px; }
-    h1 { margin: 0; font-size: 1.6em; }
-    #content { padding: 10px 0 30px 0; text-align: center; line-height: 1.8; }
-    .jp-main { font-size: 1.3em; font-weight: bold; color: #111; display: block; margin-bottom: 8px; }
-    .jp-sub { font-size: 1.0em; color: #333; display: block; margin-bottom: 20px; }
-    .en-small { font-size: 0.85em; color: #888; font-style: italic; display: block; line-height: 1.4; }
-    /* フッターをスリム化 */
-    #footer { color: #999; background: #f9f9f9; padding: 8px 15px; border-top: 1px #EEE solid; font-size: 0.8em; text-align: center; margin: 0 -30px; }
-    #footer a { color: #999; text-decoration: none; }
-    --></style>
-</head>
-<body>
-    <div id="page">
-        <div id="header"><h1>ERROR 403 - Forbidden!</h1></div>
-        <div id="content">
-            <span class="jp-main">アクセス権限がありません</span>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>403 Forbidden</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="robots" content="noindex">
+        <style type="text/css" class="native-dark-class-modified">
+            body {
+                color: #444444;
+                background-color: #EEEEEE;
+                font-family: 'Trebuchet MS', sans-serif;
+                font-size: 80%;
+            }
+            h1 {}
+            h2 { font-size: 1.2em; }
+            #page{
+                background-color: #FFFFFF;
+                width: 60%;
+                margin: 24px auto;
+                padding: 12px;
+            }
+            #header {
+                padding: 6px ;
+                text-align: center;
+            }
+            .status3xx { background-color: #475076; color: #FFFFFF; }
+            .status4xx { background-color: #C55042; color: #FFFFFF; }
+            .status5xx { background-color: #F2E81A; color: #000000; }
+            #content {
+                padding: 4px 0 24px 0;
+            }
+            #footer {
+                color: #666666;
+                background: #f9f9f9;
+                padding: 10px 20px;
+                border-top: 5px #efefef solid;
+                font-size: 0.8em;
+                text-align: center;
+            }
+            #footer a {
+                color: #999999;
+            }
+        </style>
+        <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+        <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+        <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+        <style lang="en" type="text/css" id="dark-mode-native-style"></style>
+        <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
+    </head>
+    <body>
+        <div id="page">
+             <div id="header" class="status4xx">
+                  <h1>
+                       ERROR 403 - Forbidden!
+                  </h1>
+             </div>
+             <div id="content">
+                  <span class="jp-main">アクセス権限がありません</span>
             <span class="jp-sub">このページへのアクセスは許可されていません。<br />サイト管理者までお問い合わせください。</span>
             <span class="en-small">You are not permitted to access the requested URL.<br />Please contact the webmaster with any queries.</span>
+                  <hr style=" border: 1px solid #d9d9d9; margin-top: 21px;" />
+                  <p>
+                       Address:
+                       <b style=" font-size: 16px;">
+                            <!--DOMAIN//-->algopanel.ir<!--DOMAIN//-->
+                       </b>
+                  </p>
+             </div>
+             <div id="footer">
+                  <p>
+                       Powered by
+                       <a href="https://algopanel.ir">
+                            AlgoPanel
+                       </a>
+                  </p>
+             </div>
         </div>
-        <div id="footer"><a href="https://www.ispconfig.org">ISPConfig Support</a></div>
-    </div>
-</body>
+    </body>
 </html>

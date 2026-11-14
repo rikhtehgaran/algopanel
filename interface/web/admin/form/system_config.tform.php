@@ -65,7 +65,7 @@ $form["tabs"]['sites'] = array (
 					'regex' => '/^[a-zA-Z0-9\-\_\[\]]{0,50}$/',
 					'errmsg'=> 'dbname_prefix_error_regex'),
 			),
-			'default' => '',
+			'default' => 'C[CLIENTID]_db_',
 			'value'  => '',
 			'width'  => '30',
 			'maxlength' => '255'
@@ -77,7 +77,7 @@ $form["tabs"]['sites'] = array (
 					'regex' => '/^[a-zA-Z0-9\-\_\[\]]{0,50}$/',
 					'errmsg'=> 'dbuser_prefix_error_regex'),
 			),
-			'default' => '',
+			'default' => 'C[CLIENTID]_user_',
 			'value'  => '',
 			'width'  => '30',
 			'maxlength' => '255'
@@ -89,7 +89,7 @@ $form["tabs"]['sites'] = array (
 					'regex' => '/^[a-zA-Z0-9\-\_\[\]]{0,50}$/',
 					'errmsg'=> 'ftpuser_prefix_error_regex'),
 			),
-			'default' => '',
+			'default' => 'C[CLIENTID]_ftp_',
 			'value'  => '',
 			'width'  => '30',
 			'maxlength' => '255'
@@ -101,7 +101,7 @@ $form["tabs"]['sites'] = array (
 					'regex' => '/^[a-zA-Z0-9\-\_\[\]]{0,50}$/',
 					'errmsg'=> 'shelluser_prefix_error_regex'),
 			),
-			'default' => '',
+			'default' => 'C[CLIENTID]_ssh_',
 			'value'  => '',
 			'width'  => '30',
 			'maxlength' => '255'
@@ -113,7 +113,7 @@ $form["tabs"]['sites'] = array (
 					'regex' => '/^[a-zA-Z0-9\-\_\[\]]{0,50}$/',
 					'errmsg'=> 'webdavuser_prefix_error_regex'),
 			),
-			'default' => '',
+			'default' => 'C[CLIENTID]_webdav_',
 			'value'  => '',
 			'width'  => '30',
 			'maxlength' => '255'
