@@ -193,10 +193,10 @@ $conf['timezone'] = get_system_timezone();
 
 //* Set default theme
 ####################  Algo4Stock  ####################
-### [ 2026-11-08 ⏰ 10:05 ]
+### [ 1405-08-17 ⏰ 10:05 ]
 ### [Developer: Danial Rikhteh Garan]
 $conf['theme'] = 'algopanel';
-#-------------------  Algo4Stock  -------------------#
+#--------------------  AlgoEnd  ---------------------#
 $conf['language_file_import_enabled'] = false;
 
 //** Select installation mode

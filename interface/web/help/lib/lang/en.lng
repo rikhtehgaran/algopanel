@@ -5,10 +5,10 @@ $wb['Send message'] = 'Send message';
 $wb['View messages'] = 'View messages';
 $wb['Support'] = 'Support';
 ####################  Algo4Stock  ####################
-### [ 2026-11-08 ⏰ 10:05 ]
+### [ 1405-08-17 ⏰ 10:05 ]
 ### [Developer: Danial Rikhteh Garan]
 $wb['About ISPConfig'] = 'About AlgoPanel';
-#-------------------  Algo4Stock  -------------------#
+#--------------------  AlgoEnd  ---------------------#
 $wb['Version'] = 'Version';
 $wb['Frequently Asked Questions'] = 'Frequently Asked Questions';
 $wb['FAQ Sections'] = 'FAQ Sections';
