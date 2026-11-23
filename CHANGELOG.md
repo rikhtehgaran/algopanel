@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.3] - 2026-11-23
+
+### Fixed
+- Fixed tracker endpoint logic on `get.algopanel.ir` to validate request path and HTTP methods, returning HTTP 404 for nonexistent files / scanner probes (such as `*.zip` paths).
+- Prevented invalid scan requests and error paths from being misclassified and counted as successful direct installations in telemetry database.
+
+### Added
+- Added `status_code` and `status_type` tracking columns to installer downloads database.
+- Enhanced statistics monitor dashboard (`/status/`) with distinct red badge for Error (404) requests, separate card for invalid requests, and exclusion of errors from installation counts and charts.
+
+---
+
 ## [1.1.2] - 2026-11-23
 
 ### Added

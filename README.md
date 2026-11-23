@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rikhtehgaran/algopanel/releases"><img src="https://img.shields.io/badge/version-1.1.2-blue.svg" alt="Version"></a>
+  <a href="https://github.com/rikhtehgaran/algopanel/releases"><img src="https://img.shields.io/badge/version-1.1.3-blue.svg" alt="Version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green.svg" alt="License"></a>
   <a href="https://algopanel.ir"><img src="https://img.shields.io/badge/website-algopanel.ir-blueviolet.svg" alt="Website"></a>
 </p>
