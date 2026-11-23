@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.1] - 2026-11-23
+
+### Added
+- Interactive mirror selection menu allowing users to choose their preferred mirror location/country (Iran, Global, Germany, US, etc.).
+- Secondary prompt when Iran region is selected, inquiring whether to use the domestic Iranian mirror (`mirrors.algopanel.ir`) for PHP Sury and Rspamd to bypass sanctions and boost download speeds.
+- Command-line arguments `--custom-mirror-ir` and `--no-custom-mirror-ir` for non-interactive installer automation.
+
+### Changed
+- Standardized mirror configuration workflow ensuring user is always prompted for mirror preference regardless of auto-detected geolocation.
+
+---
+
 ## [1.0.9] - 2026-11-14
 
 ### Added
